@@ -1,0 +1,14 @@
+HTTP/2 200 
+content-type: application/zip
+date: Mon, 29 Jun 2026 15:29:17 GMT
+x-amzn-trace-id: Root=1-6a428f4c-13652e150f2af352405373f1;Parent=47b976ef8e5bec31;Sampled=0;Lineage=1:562af1e5:0
+x-transaction-id: 45a12b3a-e172-420e-ad36-1b87be81e21c
+x-amzn-requestid: 45a12b3a-e172-420e-ad36-1b87be81e21c
+x-amzn-remapped-content-length: 431956
+x-gallery-source: s3
+cache-control: public, max-age=28800
+x-cache: Miss from cloudfront
+via: 1.1 ad6e514695dade93f524ba6fa787f542.cloudfront.net (CloudFront)
+x-amz-cf-pop: DFW59-P6
+x-amz-cf-id: qi6hR8nuv0XXb-DpIwMa3Nd7ty5ImYUpkqbSVqcVtIxsx3HwQ_thNw==
+

@@ -1,0 +1,966 @@
+Batch Name,"US Senate - Rep - Earl L. ""Buddy"" Carter",US Senate - Rep - Mike Collins,US Senate - Rep - John F. Coyne III,US Senate - Rep - Derek Dooley,"US Senate - Rep - Jonathan ""Jon"" McColumn",Governor - Dem - Keisha Lance Bottoms,Governor - Dem - Olu Brown,Governor - Dem - Amanda Duffy,Governor - Dem - Geoff Duncan,Governor - Dem - Jason Esteves,Governor - Dem - Derrick Jackson,"Governor - Dem - Michael ""Mike"" Thurmond"
+AV-Central  ICP 1A - 0,12,10,1,22,4,110,4,0,12,69,3,15
+AV-Central  ICP 1B - 0,30,55,3,47,6,435,4,10,40,166,14,55
+AV-Kennesaw  ICP 1A - 0,130,256,5,229,18,686,13,21,97,250,18,76
+AV-Kennesaw  ICP 1B - 0,44,86,2,94,11,193,5,2,27,64,4,26
+AV-Kennesaw  ICP 2A - 0,203,381,13,346,42,976,28,31,139,340,24,107
+AV-Kennesaw  ICP 2B - 0,74,113,6,139,17,341,8,12,50,126,5,46
+AV-Main Office  ICP 1B - 0,253,505,26,700,51,1735,48,53,289,937,63,289
+AV-Main Office  ICP 1A - 0,116,148,7,177,16,865,30,23,110,385,23,128
+AV-Main 2  ICP 1A - 0,59,60,2,98,7,287,5,4,52,67,8,64
+AV-Main 2  ICP 1B - 0,137,155,12,262,24,574,14,7,83,127,13,100
+AV-Northeast  ICP 2A - 0,188,246,15,337,37,421,7,18,87,221,22,45
+AV-Northeast  ICP 1A - 0,313,439,27,559,65,671,12,34,199,345,26,81
+AV-Northeast  ICP 2B - 0,161,285,15,322,36,352,10,21,105,233,8,45
+AV-Northeast  ICP 1B - 0,278,499,22,608,51,607,16,21,179,350,14,89
+AV-Powder Springs ICP 1B - 0,177,202,10,281,15,2410,39,32,180,413,43,423
+AV-Powder Springs ICP 1A - 0,45,47,1,73,9,586,8,5,33,108,20,115
+AV-Northwest  ICP 1A - 0,349,692,13,594,42,698,10,21,195,243,13,83
+AV-South  ICP 1A - 0,166,179,14,301,23,2959,44,30,245,749,39,731
+AV-South  ICP 1B - 0,20,36,3,58,8,547,11,4,72,214,10,113
+AV-West ICP 1A - 0,586,981,25,1070,75,1411,18,19,257,431,27,193
+AV-West ICP 1B - 0,213,348,3,361,27,509,8,11,72,186,12,74
+AV-Northwest  ICP 1B - 0,92,245,3,178,27,203,0,4,42,74,6,26
+AV-North  ICP 1A - 0,334,554,11,482,50,1115,16,23,158,288,32,140
+AV-North  ICP 1B - 0,194,308,9,252,19,446,3,17,63,106,24,55
+AV-Mableton  ICP 1A - 0,62,79,5,108,12,647,14,16,55,189,25,89
+AV-Mableton  ICP 1B - 0,35,60,6,72,7,540,8,10,59,235,14,89
+AV-East ICP 1A - 0,319,501,30,590,52,663,10,20,244,419,19,85
+AV-East ICP 1B - 0,474,1050,46,1037,96,1263,24,53,456,792,36,168
+AV-Southwest  ICP 1A - 0,76,106,3,117,16,1483,20,12,65,278,26,270
+AV-Southwest  ICP 1B - 0,10,15,0,28,0,188,2,4,18,45,5,35
+AV-Smyrna  ICP 1A - 0,5,17,1,44,2,107,2,2,16,87,3,7
+AV-Smyrna  ICP 2A - 0,28,33,3,39,5,210,4,7,25,120,4,31
+AV-Smyrna  ICP 1B - 0,202,277,25,464,40,1516,35,29,315,872,40,232
+AV-Smyrna  ICP 2B - 0,198,289,22,465,54,1533,29,17,332,824,40,270
+ICC-Absentee by Mail 1 - 196,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 194,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 197,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 195,2,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 99,1,0,0,0,1,0,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 193,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 191,0,2,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 190,0,0,0,2,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 192,0,1,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 198,1,1,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 204,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 205,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 202,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 203,1,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 199,0,0,0,0,0,1,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 200,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 19,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 20,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 201,0,0,0,0,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 2,1,0,0,0,0,4,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 189,0,0,0,0,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 176,0,3,0,0,1,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 177,0,0,0,0,0,3,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 178,3,0,0,1,0,2,0,0,0,3,0,0
+ICC-Absentee by Mail 1 - 179,2,1,1,5,0,3,0,0,1,1,0,1
+ICC-Absentee by Mail 1 - 175,1,2,0,1,0,1,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 172,0,0,0,0,0,0,1,0,0,1,0,0
+ICC-Absentee by Mail 1 - 174,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 173,2,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 18,0,0,0,2,0,2,1,0,0,1,0,0
+ICC-Absentee by Mail 1 - 186,0,4,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 180,4,0,0,0,0,3,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 187,1,0,1,0,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 188,0,0,0,4,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 185,0,3,0,1,0,3,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 182,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 206,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 184,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 181,0,0,0,3,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 183,0,2,0,0,0,3,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 232,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 23,0,0,0,0,0,4,0,0,3,3,0,0
+ICC-Absentee by Mail 1 - 207,0,0,0,0,0,2,0,0,0,0,0,3
+ICC-Absentee by Mail 1 - 231,0,0,0,2,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 230,0,0,0,1,0,0,0,0,0,1,1,0
+ICC-Absentee by Mail 1 - 226,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 229,0,0,0,1,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 233,0,0,0,0,0,0,0,0,0,2,0,1
+ICC-Absentee by Mail 1 - 227,0,1,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 228,1,1,1,1,0,2,0,0,1,1,0,1
+ICC-Absentee by Mail 1 - 239,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 240,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 241,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 234,0,0,2,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 24,0,0,0,3,0,0,0,0,0,0,0,3
+ICC-Absentee by Mail 1 - 237,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 225,0,0,0,3,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 238,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 236,0,0,0,1,0,2,0,0,2,3,0,0
+ICC-Absentee by Mail 1 - 235,0,2,0,0,2,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 212,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 213,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 211,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 224,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 214,2,0,0,1,0,0,0,0,3,0,0,0
+ICC-Absentee by Mail 1 - 210,0,2,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 215,0,0,0,0,0,1,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 208,0,0,0,0,0,1,0,1,0,1,0,0
+ICC-Absentee by Mail 1 - 209,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 21,0,0,0,1,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 222,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 221,1,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 216,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 220,1,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 223,1,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 219,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 218,0,3,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 171,0,0,0,0,0,0,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 22,0,0,0,1,1,1,0,0,1,0,0,2
+ICC-Absentee by Mail 1 - 217,0,2,0,2,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 123,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 122,0,0,0,0,2,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 124,2,1,0,4,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 121,0,3,0,0,0,3,0,0,0,3,0,0
+ICC-Absentee by Mail 1 - 170,0,0,0,0,0,1,0,0,0,3,0,1
+ICC-Absentee by Mail 1 - 118,1,0,0,0,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 119,0,4,0,0,0,6,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 120,1,0,0,0,0,2,0,0,1,2,0,0
+ICC-Absentee by Mail 1 - 12,1,0,0,1,0,1,0,0,1,1,0,0
+ICC-Absentee by Mail 1 - 125,0,0,0,3,2,5,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 132,0,2,0,3,0,2,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 126,0,0,0,1,0,4,0,0,0,1,0,2
+ICC-Absentee by Mail 1 - 130,1,0,0,0,0,0,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 133,0,2,0,0,1,2,0,0,2,1,0,0
+ICC-Absentee by Mail 1 - 131,1,1,0,2,1,2,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 13,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 117,0,3,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 128,0,0,0,0,0,3,0,0,0,0,0,3
+ICC-Absentee by Mail 1 - 127,0,0,0,4,0,0,0,0,0,0,2,0
+ICC-Absentee by Mail 1 - 129,0,0,0,2,0,1,0,0,0,2,0,1
+ICC-Absentee by Mail 1 - 116,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 104,1,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 105,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 106,0,0,0,4,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 103,0,0,0,0,0,1,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 102,0,0,0,0,0,3,0,0,1,0,0,1
+ICC-Absentee by Mail 1 - 10,0,0,0,0,0,2,0,0,2,0,0,2
+ICC-Absentee by Mail 1 - 100,0,0,0,0,0,4,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 101,0,2,0,3,0,4,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 107,0,0,0,4,0,2,0,0,1,1,0,0
+ICC-Absentee by Mail 1 - 108,2,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 113,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 114,0,1,0,0,0,0,0,0,0,0,1,0
+ICC-Absentee by Mail 1 - 115,0,0,0,0,0,0,0,0,3,0,0,0
+ICC-Absentee by Mail 1 - 112,1,3,0,4,0,3,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 111,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 109,0,0,0,1,0,0,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 11,1,1,0,5,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 110,0,0,0,1,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 134,0,1,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 135,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 159,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 16,2,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 160,0,2,0,0,0,0,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 158,0,2,0,2,1,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 157,0,1,0,0,0,2,0,0,0,2,0,2
+ICC-Absentee by Mail 1 - 154,2,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 155,0,0,0,1,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 156,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 161,2,0,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 162,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 168,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 169,3,2,0,6,0,5,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 167,0,0,0,0,0,3,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 17,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 165,1,0,0,0,0,1,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 163,1,2,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 153,0,0,0,0,0,2,0,0,3,0,0,0
+ICC-Absentee by Mail 1 - 164,0,1,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 166,0,4,0,0,0,0,0,0,1,0,0,1
+ICC-Absentee by Mail 1 - 141,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 152,1,2,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 140,0,0,0,1,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 142,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 14,0,2,0,1,0,5,0,1,0,0,0,0
+ICC-Absentee by Mail 1 - 136,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 138,0,1,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 137,0,0,0,0,1,1,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 143,2,2,0,1,0,2,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 139,1,1,0,6,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 151,0,0,0,0,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 144,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 150,0,0,0,2,0,0,0,1,0,2,0,0
+ICC-Absentee by Mail 1 - 149,1,2,0,0,1,4,0,0,0,1,0,2
+ICC-Absentee by Mail 1 - 15,0,0,0,1,0,0,0,0,0,1,1,0
+ICC-Absentee by Mail 1 - 242,0,0,0,0,0,0,0,1,0,0,0,0
+ICC-Absentee by Mail 1 - 146,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 145,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 148,2,0,0,0,0,0,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 147,0,1,0,0,0,0,0,0,3,1,0,1
+ICC-Absentee by Mail 1 - 50,1,2,0,3,0,1,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 243,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 51,0,1,0,0,0,5,0,0,2,1,0,0
+ICC-Absentee by Mail 1 - 5,0,1,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 52,2,0,0,1,0,4,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 53,0,0,0,0,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 47,1,1,0,2,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 48,2,2,0,0,0,1,0,0,0,0,1,2
+ICC-Absentee by Mail 1 - 49,0,2,1,0,0,3,0,0,3,0,0,1
+ICC-Absentee by Mail 1 - 46,0,2,0,0,0,3,0,0,2,1,0,1
+ICC-Absentee by Mail 1 - 54,0,2,0,4,0,0,0,0,1,0,0,1
+ICC-Absentee by Mail 1 - 6,0,0,0,1,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 61,0,0,0,1,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 59,0,3,0,2,0,3,0,0,0,0,1,1
+ICC-Absentee by Mail 1 - 60,0,3,0,1,0,4,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 45,1,0,0,1,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 58,0,0,0,0,0,1,0,1,0,2,0,6
+ICC-Absentee by Mail 1 - 57,2,2,0,1,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 56,1,1,0,0,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 55,0,2,0,1,0,0,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 33,0,2,0,0,0,0,0,0,0,1,0,1
+ICC-Absentee by Mail 1 - 320,1,0,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 44,0,0,0,4,0,4,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 34,2,0,0,3,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 32,0,0,0,2,0,3,0,0,3,0,0,2
+ICC-Absentee by Mail 1 - 316,4,2,0,1,1,1,0,0,3,0,0,0
+ICC-Absentee by Mail 1 - 35,0,3,0,2,0,1,0,0,1,2,0,0
+ICC-Absentee by Mail 1 - 318,2,0,0,1,0,1,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 319,2,2,0,1,0,3,1,0,0,2,0,0
+ICC-Absentee by Mail 1 - 317,0,7,0,9,0,5,0,0,3,1,0,0
+ICC-Absentee by Mail 1 - 41,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 36,2,1,0,2,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 42,1,0,0,1,0,6,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 40,0,1,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 43,2,1,0,0,0,6,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 62,0,0,0,0,0,4,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 39,1,1,0,2,0,2,0,0,2,1,0,0
+ICC-Absentee by Mail 1 - 37,1,1,0,3,0,3,0,0,1,1,0,0
+ICC-Absentee by Mail 1 - 4,0,0,0,0,0,0,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 38,0,0,0,0,0,2,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 88,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 89,3,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 86,0,0,1,1,1,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 87,0,0,0,1,0,3,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 63,2,2,0,0,0,1,0,1,0,0,1,0
+ICC-Absentee by Mail 1 - 83,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 82,2,2,2,2,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 85,0,0,0,1,0,2,0,0,2,2,0,0
+ICC-Absentee by Mail 1 - 9,0,2,0,3,0,2,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 84,2,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 96,0,2,0,2,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 95,3,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 98,1,0,0,2,0,1,0,0,3,0,0,0
+ICC-Absentee by Mail 1 - 90,1,0,0,3,1,1,0,0,4,0,0,0
+ICC-Absentee by Mail 1 - 97,0,2,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 94,0,0,0,0,0,2,0,0,3,0,0,0
+ICC-Absentee by Mail 1 - 81,0,1,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 92,0,4,0,1,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 91,2,1,0,1,0,2,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 93,2,0,0,0,3,4,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 80,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 68,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 70,2,1,0,0,0,1,0,0,3,1,0,2
+ICC-Absentee by Mail 1 - 69,0,0,0,4,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 7,1,1,0,0,0,4,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 64,1,0,0,2,0,4,0,0,1,0,0,2
+ICC-Absentee by Mail 1 - 71,1,0,0,1,0,1,1,1,0,0,0,0
+ICC-Absentee by Mail 1 - 67,0,2,0,2,1,1,0,0,1,3,0,0
+ICC-Absentee by Mail 1 - 66,1,2,0,0,0,6,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 65,0,0,0,0,0,3,0,0,1,1,0,0
+ICC-Absentee by Mail 1 - 77,0,1,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 72,0,0,0,0,0,3,0,0,2,1,0,0
+ICC-Absentee by Mail 1 - 79,1,1,0,0,0,4,0,0,1,1,0,1
+ICC-Absentee by Mail 1 - 8,0,1,0,3,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 78,1,0,0,0,0,2,0,0,4,0,0,1
+ICC-Absentee by Mail 1 - 76,0,1,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 74,4,1,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 75,0,1,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 73,0,1,0,1,0,1,0,0,2,0,0,1
+ICC-Absentee by Mail 1 - 315,2,4,0,4,0,5,0,1,1,1,0,0
+ICC-Absentee by Mail 1 - 269,0,0,0,0,2,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 268,0,0,0,0,0,0,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 266,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 267,0,0,0,0,0,0,0,0,0,3,0,0
+ICC-Absentee by Mail 1 - 314,3,3,0,2,2,3,0,0,0,1,0,1
+ICC-Absentee by Mail 1 - 265,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 262,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 263,0,2,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 264,0,0,0,0,0,2,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 27,0,0,0,0,1,3,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 270,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 276,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 278,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 277,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 275,0,1,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 261,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 274,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 272,1,1,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 273,0,0,0,1,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 271,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 249,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 260,1,2,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 250,1,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 248,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 25,1,0,0,1,0,4,0,0,3,0,0,0
+ICC-Absentee by Mail 1 - 251,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 246,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 244,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 247,0,0,0,1,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 245,1,2,0,1,0,0,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 258,0,0,0,0,0,0,0,0,0,0,0,2
+ICC-Absentee by Mail 1 - 257,2,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 259,0,2,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 26,0,0,1,2,0,4,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 252,0,3,0,4,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 279,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 254,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 253,0,0,0,0,0,1,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 256,0,0,0,3,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 255,0,0,0,2,1,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 302,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 303,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 304,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 301,0,0,0,0,0,0,0,1,1,0,0,0
+ICC-Absentee by Mail 1 - 28,2,1,1,0,0,2,0,0,0,2,0,2
+ICC-Absentee by Mail 1 - 30,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 305,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 3,1,2,0,0,0,5,0,0,0,2,0,0
+ICC-Absentee by Mail 1 - 299,2,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 300,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 310,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 312,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 306,0,1,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 313,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 311,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 298,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 309,0,0,0,1,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 307,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 308,0,1,0,2,0,2,0,0,0,1,0,1
+ICC-Absentee by Mail 1 - 31,0,1,0,5,0,1,0,0,2,1,0,0
+ICC-Absentee by Mail 1 - 297,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 284,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 287,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 286,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 285,0,0,0,0,0,0,0,0,0,0,1,0
+ICC-Absentee by Mail 1 - 283,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 288,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 281,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 280,0,0,0,0,0,1,0,0,1,0,0,0
+ICC-Absentee by Mail 1 - 282,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 296,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 295,0,0,0,0,0,1,0,0,2,0,0,0
+ICC-Absentee by Mail 1 - 293,0,0,0,0,0,2,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 294,0,2,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 289,0,0,0,1,0,0,0,0,1,1,0,0
+ICC-Absentee by Mail 1 - 290,0,0,0,0,2,0,0,0,0,0,0,1
+ICC-Absentee by Mail 1 - 291,1,0,0,0,1,0,0,0,0,0,0,0
+ICC-Absentee by Mail 1 - 1,0,0,0,0,0,3,0,0,0,1,0,0
+ICC-Absentee by Mail 1 - 292,0,0,0,0,0,0,0,0,0,0,1,0
+ICC-Absentee by Mail 1 - 29,0,0,0,1,2,3,0,0,1,2,0,1
+ICC-Absentee by Mail 2 - 181,0,2,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 184,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 183,0,0,0,0,0,2,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 99,0,1,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 182,0,3,0,1,1,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 185,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 180,0,0,1,2,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 186,0,0,0,0,0,2,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 187,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 18,1,3,0,1,0,1,0,0,2,2,0,0
+ICC-Absentee by Mail 2 - 191,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 188,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 192,0,0,0,2,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 190,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 19,0,2,0,2,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 189,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 179,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 167,2,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 177,0,0,0,2,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 178,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 163,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 166,0,0,0,0,0,1,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 165,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 164,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 168,2,0,2,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 176,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 169,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 170,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 175,0,0,0,0,0,2,0,0,0,0,0,2
+ICC-Absentee by Mail 2 - 17,3,0,0,0,0,0,0,0,0,1,0,1
+ICC-Absentee by Mail 2 - 173,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 174,0,0,0,0,0,0,0,0,0,0,0,2
+ICC-Absentee by Mail 2 - 193,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 171,0,0,0,0,0,2,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 172,1,0,0,0,0,0,0,0,0,0,0,3
+ICC-Absentee by Mail 2 - 213,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 212,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 214,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 215,0,0,0,1,1,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 194,1,0,0,0,0,0,0,0,1,3,0,0
+ICC-Absentee by Mail 2 - 216,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 218,2,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 210,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 217,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 211,0,1,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 220,0,0,0,0,0,2,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 222,0,0,0,2,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 219,2,3,0,2,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 223,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 221,0,3,0,1,0,1,0,0,4,0,0,0
+ICC-Absentee by Mail 2 - 209,0,0,0,0,0,0,0,0,0,2,0,0
+ICC-Absentee by Mail 2 - 199,1,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 21,3,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 22,0,0,0,0,0,0,0,0,0,2,0,0
+ICC-Absentee by Mail 2 - 208,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 197,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 196,3,0,0,0,0,0,0,0,0,0,1,0
+ICC-Absentee by Mail 2 - 198,0,0,0,2,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 2,0,0,0,0,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 195,0,2,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 200,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 201,0,0,0,0,0,2,3,0,0,0,0,0
+ICC-Absentee by Mail 2 - 206,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 20,0,2,0,1,0,6,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 207,0,0,0,0,0,0,0,0,0,1,0,1
+ICC-Absentee by Mail 2 - 162,2,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 202,0,0,0,0,0,3,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 204,0,0,0,0,0,3,0,0,0,0,1,0
+ICC-Absentee by Mail 2 - 205,0,1,0,3,0,2,0,1,0,0,0,0
+ICC-Absentee by Mail 2 - 203,0,0,0,1,0,2,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 120,0,1,0,1,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 118,1,0,0,1,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 119,0,0,0,1,0,2,0,0,2,0,0,1
+ICC-Absentee by Mail 2 - 161,0,0,0,4,0,8,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 12,3,2,0,0,0,2,0,0,2,1,0,0
+ICC-Absentee by Mail 2 - 116,0,0,0,0,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 123,0,0,0,1,2,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 121,0,1,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 122,0,0,1,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 117,0,0,0,1,0,4,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 127,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 128,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 129,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 124,2,2,0,1,0,2,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 126,1,2,0,3,0,1,0,0,0,3,0,0
+ICC-Absentee by Mail 2 - 114,0,4,0,0,0,0,0,0,5,0,0,0
+ICC-Absentee by Mail 2 - 115,1,0,0,3,1,1,0,0,1,2,0,0
+ICC-Absentee by Mail 2 - 125,0,4,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 113,1,0,0,0,0,1,0,0,0,2,0,0
+ICC-Absentee by Mail 2 - 103,0,2,0,1,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 104,0,1,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 102,1,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 100,1,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 101,1,3,0,1,0,1,0,0,1,0,0,1
+ICC-Absentee by Mail 2 - 10,1,3,1,1,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 106,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 112,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 107,0,0,0,0,0,3,0,0,0,0,0,2
+ICC-Absentee by Mail 2 - 105,1,1,0,3,0,5,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 111,0,0,0,0,0,4,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 11,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 108,1,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 109,0,3,0,2,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 13,0,0,0,0,0,2,0,0,1,3,0,0
+ICC-Absentee by Mail 2 - 110,0,2,0,0,0,4,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 130,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 151,0,0,0,1,0,4,0,0,1,0,0,2
+ICC-Absentee by Mail 2 - 15,0,2,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 150,0,1,0,1,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 152,1,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 155,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 149,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 153,0,0,0,0,0,0,0,1,1,0,0,0
+ICC-Absentee by Mail 2 - 154,1,2,0,2,2,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 148,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 156,0,0,0,0,0,1,0,0,1,1,0,0
+ICC-Absentee by Mail 2 - 159,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 160,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 16,2,1,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 158,0,0,0,1,0,1,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 145,2,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 146,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 157,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 147,0,2,0,1,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 135,0,1,0,1,0,3,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 136,0,1,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 133,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 134,0,2,0,0,1,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 132,1,0,0,1,0,0,0,0,3,1,0,2
+ICC-Absentee by Mail 2 - 131,0,0,0,3,1,3,0,0,0,2,0,0
+ICC-Absentee by Mail 2 - 139,0,3,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 144,1,0,0,3,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 143,0,0,0,0,0,0,1,0,1,0,0,0
+ICC-Absentee by Mail 2 - 137,1,0,0,2,0,0,0,0,1,5,0,0
+ICC-Absentee by Mail 2 - 138,4,1,0,3,0,1,0,2,0,2,1,0
+ICC-Absentee by Mail 2 - 141,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 14,1,0,0,2,0,2,0,0,1,1,0,3
+ICC-Absentee by Mail 2 - 224,2,1,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 142,2,1,0,2,0,0,0,1,0,3,0,0
+ICC-Absentee by Mail 2 - 140,2,0,0,1,2,2,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 225,2,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 58,0,0,0,0,0,8,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 56,0,0,0,0,0,4,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 57,0,0,0,0,0,5,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 55,0,1,0,0,0,2,0,0,1,0,0,1
+ICC-Absentee by Mail 2 - 53,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 59,1,0,0,0,0,0,0,0,0,3,0,0
+ICC-Absentee by Mail 2 - 6,0,1,0,1,0,4,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 60,0,0,0,0,0,7,0,0,0,3,0,2
+ICC-Absentee by Mail 2 - 54,2,0,0,0,0,5,1,0,0,2,0,0
+ICC-Absentee by Mail 2 - 61,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 64,0,2,0,1,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 63,3,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 66,0,4,0,2,0,2,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 65,0,1,0,0,0,2,0,0,3,1,0,2
+ICC-Absentee by Mail 2 - 51,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 50,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 52,0,1,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 62,1,0,0,2,1,2,0,1,0,1,0,0
+ICC-Absentee by Mail 2 - 40,0,0,0,0,0,3,0,0,0,0,1,0
+ICC-Absentee by Mail 2 - 39,2,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 41,4,0,0,1,0,5,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 4,1,1,0,1,0,3,0,2,1,1,0,0
+ICC-Absentee by Mail 2 - 38,2,2,0,3,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 37,2,3,0,1,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 49,2,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 43,0,1,0,0,0,3,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 5,0,3,0,0,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 42,0,0,0,3,0,2,0,0,2,3,0,0
+ICC-Absentee by Mail 2 - 44,0,0,0,1,0,1,0,0,3,0,0,0
+ICC-Absentee by Mail 2 - 46,0,0,0,0,0,3,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 47,2,2,0,0,1,2,0,0,0,2,0,0
+ICC-Absentee by Mail 2 - 67,2,1,0,2,0,3,0,0,1,0,0,1
+ICC-Absentee by Mail 2 - 45,0,3,0,0,0,2,0,0,2,0,0,1
+ICC-Absentee by Mail 2 - 48,2,3,0,1,0,3,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 68,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 9,0,0,0,0,1,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 88,2,0,0,0,0,2,0,0,0,0,0,3
+ICC-Absentee by Mail 2 - 89,0,2,0,0,0,1,0,0,3,2,0,1
+ICC-Absentee by Mail 2 - 87,3,0,0,2,0,3,0,0,1,1,0,0
+ICC-Absentee by Mail 2 - 92,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 91,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 85,0,0,0,0,1,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 86,0,0,0,0,0,1,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 90,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 95,0,0,0,0,0,0,0,0,0,0,1,0
+ICC-Absentee by Mail 2 - 97,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 98,0,0,0,0,0,1,0,0,0,0,2,0
+ICC-Absentee by Mail 2 - 93,0,0,0,1,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 96,1,1,0,0,0,2,0,0,0,1,0,2
+ICC-Absentee by Mail 2 - 84,1,0,0,0,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 94,0,1,0,3,0,1,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 83,3,3,0,1,0,2,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 82,0,0,0,1,0,2,0,0,1,1,0,0
+ICC-Absentee by Mail 2 - 72,1,0,0,0,0,5,0,0,0,1,0,2
+ICC-Absentee by Mail 2 - 71,0,0,0,0,0,1,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 7,3,0,0,1,1,1,0,0,1,1,0,1
+ICC-Absentee by Mail 2 - 70,0,1,0,1,0,2,0,0,1,3,0,0
+ICC-Absentee by Mail 2 - 69,2,1,1,3,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 73,4,0,0,2,0,2,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 75,0,0,0,3,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 81,0,1,0,1,0,1,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 76,1,3,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 80,0,1,0,1,0,2,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 74,1,1,0,0,0,3,0,0,1,1,0,0
+ICC-Absentee by Mail 2 - 8,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 36,0,0,0,0,0,2,0,0,0,1,0,2
+ICC-Absentee by Mail 2 - 77,0,1,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 78,0,2,0,2,1,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 79,0,0,0,0,0,8,0,0,0,2,0,1
+ICC-Absentee by Mail 2 - 35,0,0,0,0,0,1,0,0,0,0,0,2
+ICC-Absentee by Mail 2 - 246,0,1,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 247,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 245,0,0,0,2,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 244,0,0,0,0,0,0,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 242,0,3,0,3,0,1,0,0,2,1,0,0
+ICC-Absentee by Mail 2 - 243,2,3,0,2,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 248,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 249,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 25,1,0,0,1,0,6,0,0,1,0,0,1
+ICC-Absentee by Mail 2 - 254,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 255,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 253,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 252,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 250,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 251,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 241,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 240,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 24,0,0,0,2,0,2,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 23,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 230,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 229,0,0,0,0,0,1,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 228,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 226,0,0,0,1,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 227,0,0,0,5,0,3,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 231,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 232,0,0,0,1,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 233,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 238,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 239,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 237,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 236,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 234,1,0,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 235,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 256,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 257,2,0,0,0,0,2,0,0,0,1,0,2
+ICC-Absentee by Mail 2 - 279,0,1,0,1,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 277,1,2,0,2,0,3,0,0,1,0,0,1
+ICC-Absentee by Mail 2 - 276,3,4,0,1,1,5,0,0,0,2,0,0
+ICC-Absentee by Mail 2 - 278,3,2,0,3,0,4,0,0,4,0,0,1
+ICC-Absentee by Mail 2 - 28,1,0,0,1,0,1,0,0,1,2,0,0
+ICC-Absentee by Mail 2 - 29,0,0,0,0,0,0,0,0,2,2,0,1
+ICC-Absentee by Mail 2 - 274,2,6,0,3,0,7,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 275,0,5,0,0,0,9,0,0,1,0,0,0
+ICC-Absentee by Mail 2 - 280,2,2,0,1,1,2,0,0,0,1,0,2
+ICC-Absentee by Mail 2 - 3,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 31,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 34,0,2,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 32,2,0,0,0,0,2,0,0,2,1,0,0
+ICC-Absentee by Mail 2 - 33,1,0,0,2,0,5,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 261,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 271,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 30,1,0,0,0,0,4,0,0,0,2,0,1
+ICC-Absentee by Mail 2 - 273,3,1,0,5,1,5,0,0,2,2,0,2
+ICC-Absentee by Mail 2 - 272,1,1,2,3,1,3,0,0,2,5,0,0
+ICC-Absentee by Mail 2 - 258,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 260,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 262,0,0,0,2,1,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 26,0,0,0,0,0,1,0,0,0,0,0,1
+ICC-Absentee by Mail 2 - 259,1,0,0,0,0,5,0,0,2,0,0,0
+ICC-Absentee by Mail 2 - 265,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 264,0,1,0,0,0,1,0,0,0,0,0,2
+ICC-Absentee by Mail 2 - 27,0,0,0,1,0,0,0,0,0,1,0,0
+ICC-Absentee by Mail 2 - 263,0,1,0,0,0,1,0,0,0,2,0,0
+ICC-Absentee by Mail 2 - 270,0,0,0,2,0,2,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 268,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 266,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 269,2,0,0,0,0,0,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 1,1,0,0,0,0,1,0,0,0,0,0,0
+ICC-Absentee by Mail 2 - 267,0,0,0,2,0,0,0,0,1,0,0,0
+ED-Simpson 01  ICP 1 - 0,29,61,4,75,6,67,1,2,23,36,3,5
+ED-Garrison Mill 01  ICP 1 - 0,57,93,6,159,12,106,4,6,20,78,9,11
+ED-Dobbins 01  ICP 1 - 0,5,14,0,12,2,61,5,5,14,51,4,10
+ED-Fullers Park 01  ICP 1 - 0,54,140,3,135,14,117,6,7,29,78,2,12
+ED-Eastside 01  ICP 1 - 0,47,140,6,135,13,53,2,5,38,90,9,8
+ED-Lost Mountain 01  ICP 1 - 0,45,96,2,113,9,171,6,5,23,68,6,19
+ED-Smyrna 3B  ICP 1 - 0,37,46,3,79,10,142,4,3,19,116,8,15
+ED-Sewell Mill 01  ICP 1 - 0,58,120,4,156,18,128,5,10,33,86,5,9
+ED-Blackwell 01  ICP 1 - 0,45,51,0,70,9,133,3,1,20,68,9,13
+ED-Kell 01  ICP 1 - 0,30,87,8,91,10,74,0,8,14,59,4,9
+ED-Bells Ferry 03  ICP 1 - 0,35,52,4,52,9,126,2,7,7,57,3,9
+ED-Wade Green 02  ICP 1 - 0,24,39,2,38,8,121,4,8,9,49,4,9
+ED-Kemp 03  ICP 1 - 0,101,201,4,182,9,124,5,3,32,60,7,20
+ED-Marietta 6A  ICP 1 - 0,4,11,0,9,4,23,0,1,2,24,5,3
+ED-Vaughan 01  ICP 1 - 0,80,133,5,152,10,86,2,5,11,57,4,13
+ED-Vinings 01  ICP 1 - 0,22,42,7,98,3,226,8,5,41,180,5,18
+ED-Dickerson 01  ICP 1 - 0,53,111,3,152,12,85,1,9,35,74,6,13
+ED-Marietta 3B  ICP 1 - 0,4,20,1,16,1,113,2,3,8,31,6,15
+ED-Davis 01  ICP 1 - 0,29,82,3,75,4,88,1,4,24,72,3,8
+ED-Lost Mountain 03  ICP 2 - 0,46,68,3,64,8,89,4,5,7,34,4,12
+ED-Lost Mountain 03  ICP 1 - 0,43,72,2,99,7,135,1,3,20,49,3,12
+ED-Dodgen 01  ICP 1 - 0,45,95,5,131,9,69,0,3,35,65,2,6
+ED-Mableton 5A  ICP 1 - 0,23,27,1,50,6,226,7,3,18,135,9,41
+ED-Mableton 2B  ICP 1 - 0,4,5,2,4,7,236,6,4,5,58,7,21
+ED-East Piedmont 01  ICP 1 - 0,34,53,1,33,7,128,2,9,12,59,7,20
+ED-Mableton 3B  ICP 1 - 0,8,12,0,8,2,182,6,3,3,57,3,24
+ED-Mabry 01  ICP 1 - 0,40,85,6,71,10,53,0,5,16,48,6,7
+ED-Smyrna 5A  ICP 2 - 0,5,18,0,19,2,64,1,5,10,49,3,8
+ED-Smyrna 5A  ICP 1 - 0,21,28,6,63,5,190,3,8,18,102,6,23
+ED-Pope 01  ICP 1 - 0,42,96,6,98,10,80,1,8,25,89,2,15
+ED-Marietta 2A  ICP 1 - 0,46,67,5,99,11,49,4,3,24,47,0,3
+ED-Dobbins 02  ICP 1 - 0,18,11,1,27,2,170,5,5,10,66,6,8
+ED-Hayes 01  ICP 1 - 0,69,133,1,109,10,124,6,8,12,54,4,12
+ED-Cheatham Hill 02  ICP 1 - 0,67,91,8,146,14,134,1,9,22,64,7,19
+ED-Oregon 05  ICP 1 - 0,50,88,1,118,18,246,7,5,36,98,9,27
+ED-Chattahoochee 01  ICP 1 - 0,9,21,0,24,2,149,2,9,11,109,8,11
+ED-Chattahoochee 01  ICP 2 - 0,7,13,0,23,4,128,3,6,18,86,7,26
+ED-Mableton 6B  ICP 1 - 0,18,25,3,37,7,252,6,6,17,94,5,31
+ED-Marietta 1A  ICP 1 - 0,15,33,1,36,1,138,3,3,24,85,9,17
+ED-Baker 01  ICP 1 - 0,23,40,0,39,1,132,3,5,13,59,5,14
+ED-McEachern 01  ICP 1 - 0,46,65,0,76,2,282,8,4,18,61,8,35
+ED-Baker 01  ICP 2 - 0,25,30,4,35,5,112,7,2,4,42,4,8
+ED-Pitner 01  ICP 1 - 0,63,91,2,88,11,133,1,9,21,72,3,8
+ED-Mableton 1A  ICP 1 - 0,14,12,0,12,5,276,6,1,13,57,7,61
+ED-Vinings 04  ICP 2 - 0,57,119,6,206,5,119,5,3,48,70,4,16
+ED-McClure 01  ICP 1 - 0,60,108,4,132,8,113,3,7,15,51,3,15
+ED-Shallowford Falls 01  ICP 1 - 0,66,122,4,146,17,122,1,7,31,99,5,12
+ED-Kemp 01  ICP 1 - 0,50,69,2,95,10,67,1,1,17,42,2,9
+ED-Ford 01  ICP 1 - 0,76,124,2,129,13,101,4,5,20,35,10,11
+ED-McCleskey 01  ICP 1 - 0,34,86,5,105,7,67,0,5,14,57,5,8
+ED-Wade Green 01  ICP 1 - 0,38,63,5,65,9,85,2,6,11,62,4,12
+ED-Big Shanty 02  ICP 1 - 0,64,73,5,134,18,129,1,7,17,79,8,21
+ED-Marietta 5A  ICP 1 - 0,26,52,2,64,5,197,3,6,26,79,4,17
+ED-Clarkdale 01  ICP 1 - 0,31,33,0,37,4,192,5,6,15,64,8,18
+ED-Vinings 03  ICP 1 - 0,40,41,1,117,8,236,7,7,39,142,11,33
+ED-Big Shanty 01  ICP 1 - 0,40,50,5,56,6,75,4,9,16,39,9,13
+ED-Mt Bethel 01  ICP 1 - 0,77,176,6,229,11,103,2,11,63,81,2,14
+ED-Smyrna 3A  ICP 1 - 0,29,42,2,66,3,139,8,2,40,108,3,16
+ED-Pine Mountain 02  ICP 1 - 0,72,157,4,212,13,87,5,6,38,37,1,9
+ED-Nicholson 01  ICP 1 - 0,35,71,4,60,12,93,4,3,22,69,5,9
+ED-Mableton 2A  ICP 1 - 0,6,8,0,11,3,276,5,2,15,106,8,36
+ED-Powder Springs 2A  ICP 1 - 0,13,10,3,22,3,163,3,4,12,53,8,12
+ED-Powder Springs 2A  ICP 2 - 0,5,4,2,8,3,118,5,2,4,32,3,14
+ED-Elizabeth 04  ICP 1 - 0,27,55,5,58,9,126,4,12,29,95,7,16
+ED-Mars Hill 02  ICP 1 - 0,43,75,0,68,5,105,2,4,18,53,11,9
+ED-Mt Bethel 04  ICP 1 - 0,61,115,6,143,7,70,6,2,31,59,2,11
+ED-Mt Bethel 03  ICP 1 - 0,54,81,5,133,5,78,0,10,29,59,7,7
+ED-Powder Springs 1A  ICP 2 - 0,15,7,1,23,1,127,2,0,9,41,3,10
+ED-Powder Springs 1A  ICP 1 - 0,13,27,1,39,3,228,6,8,13,71,4,35
+ED-Kennesaw 2A  ICP 1 - 0,39,79,3,79,9,159,9,11,13,92,5,13
+ED-Elizabeth 05  ICP 1 - 0,46,73,5,115,8,109,3,9,33,86,11,7
+ED-Lost Mountain 04  ICP 1 - 0,54,81,4,124,4,76,2,2,13,38,3,9
+ED-Nickajack 01  ICP 1 - 0,16,23,2,50,6,347,7,4,45,195,13,38
+ED-Smyrna 1A  ICP 2 - 0,17,20,2,17,3,144,2,6,20,69,6,20
+ED-Smyrna 1A  ICP 1 - 0,19,22,1,39,3,170,2,9,25,86,6,19
+ED-Palmer 01  ICP 1 - 0,41,79,8,84,11,82,1,8,25,57,9,10
+ED-Bells Ferry 04  ICP 1 - 0,56,145,7,112,11,154,5,17,24,92,5,10
+ED-Austell 1A  ICP 1 - 0,17,8,1,20,5,183,4,3,4,51,1,16
+ED-Smyrna 2A  ICP 1 - 0,14,33,3,55,4,334,11,13,34,190,18,48
+ED-Mableton 6A  ICP 1 - 0,7,2,2,9,0,105,3,2,4,29,1,17
+ED-Mableton 6A  ICP 2 - 0,6,9,0,12,0,125,4,1,7,33,8,15
+ED-Acworth 1A  ICP 1 - 0,39,55,3,61,3,132,3,11,8,54,2,13
+ED-Acworth 1A  ICP 2 - 0,36,47,0,64,3,107,3,12,13,49,5,15
+ED-Chalker 01  ICP 1 - 0,32,37,2,42,8,127,9,5,18,72,5,3
+ED-Chalker 01  ICP 2 - 0,25,19,1,41,3,138,3,4,10,78,10,13
+ED-Frey 01  ICP 1 - 0,69,96,1,103,5,92,2,4,10,30,4,11
+ED-Oregon 02  ICP 1 - 0,32,44,3,44,7,258,3,4,19,85,12,29
+ED-Marietta 6B  ICP 1 - 0,59,98,5,117,7,233,7,9,34,131,6,24
+ED-Dowell 01  ICP 1 - 0,39,66,3,102,9,172,4,10,25,97,6,15
+ED-Kennesaw 5A  ICP 1 - 0,26,45,3,46,5,147,3,5,13,76,6,9
+ED-Kennesaw 5A  ICP 2 - 0,61,86,3,103,12,245,6,5,19,108,9,21
+ED-Mableton 1B  ICP 1 - 0,8,6,2,6,1,265,4,2,0,72,10,40
+ED-Marietta 4A  ICP 1 - 0,71,129,6,255,1,48,2,5,40,64,3,11
+ED-Harrison 01  ICP 1 - 0,59,111,4,154,5,85,4,3,10,56,2,7
+ED-Birney 01  ICP 1 - 0,33,46,2,57,6,193,2,3,20,70,3,17
+ED-Mableton 3A  ICP 1 - 0,20,22,2,26,0,266,12,4,12,90,6,44
+ED-Pine Mountain 01  ICP 1 - 0,71,151,2,145,8,108,2,2,23,41,10,19
+ED-Marietta 5B  ICP 1 - 0,11,18,0,12,0,67,3,3,3,40,2,9
+ED-Durham 01  ICP 2 - 0,96,155,5,197,13,112,2,0,16,45,2,17
+ED-Mars Hill 01  ICP 1 - 0,87,140,1,141,10,79,4,1,12,30,3,6
+ED-Marietta 3A  ICP 2 - 0,37,63,0,82,5,82,4,2,32,62,4,18
+ED-Marietta 3A  ICP 1 - 0,29,43,3,74,2,76,1,4,19,55,3,7
+ED-Sewell Mill 03  ICP 1 - 0,47,105,5,118,16,184,6,11,28,123,6,19
+ED-Lost Mountain 02  ICP 2 - 0,51,104,1,111,10,64,0,2,17,26,3,5
+ED-Lost Mountain 02  ICP 1 - 0,42,104,2,96,8,56,2,2,13,22,2,4
+ED-Cheatham Hill 03  ICP 1 - 0,33,79,2,87,7,147,3,6,16,64,4,23
+ED-Cheatham Hill 03  ICP 2 - 0,37,72,6,69,7,115,0,3,20,47,7,15
+ED-Austell 1B  ICP 1 - 0,7,15,1,7,0,202,9,1,4,38,5,27
+ED-Acworth 1B  ICP 1 - 0,32,37,1,46,4,88,2,5,7,50,5,2
+ED-Eastside 02  ICP 1 - 0,96,127,2,157,9,108,1,10,40,129,6,17
+ED-Acworth 1B  ICP 2 - 0,39,61,1,45,5,92,1,4,12,58,6,12
+ED-Murdock 01  ICP 1 - 0,60,139,6,167,21,124,6,12,47,119,6,13
+ED-Powers Ferry 01  ICP 1 - 0,37,67,3,73,9,100,1,5,28,115,4,14
+ED-Smyrna 6A  ICP 1 - 0,26,55,0,89,7,134,1,2,30,92,6,14
+ED-Kennesaw 1A  ICP 1 - 0,41,48,2,49,6,82,7,0,8,56,5,11
+ED-Smyrna 6A  ICP 2 - 0,35,60,4,92,7,129,4,4,30,80,4,18
+ED-Sope Creek 03  ICP 1 - 0,44,122,6,138,6,68,3,6,24,63,0,6
+ED-Sope Creek 01  ICP 1 - 0,44,86,11,112,8,58,1,5,31,80,3,11
+ED-Marietta 4C  ICP 1 - 0,57,90,5,191,13,106,2,0,34,61,3,16
+ED-Sope Creek 02  ICP 1 - 0,48,100,4,138,8,169,1,7,53,134,7,22
+ED-Terrell Mill 01  ICP 1 - 0,30,68,7,72,15,214,9,12,16,130,14,18
+ED-Post Oak 01  ICP 1 - 0,73,126,4,163,18,115,3,7,29,84,8,8
+ED-Willeo 01  ICP 1 - 0,60,92,7,151,7,81,1,4,27,103,11,9
+ED-Elizabeth 02  ICP 1 - 0,45,61,2,104,8,80,5,5,14,61,4,7
+ED-Gritters 01  ICP 1 - 0,75,116,3,110,15,131,0,9,33,102,7,25
+ED-Mableton 4A  ICP 1 - 0,30,49,1,71,10,154,4,8,24,88,6,21
+ED-Sandy Plains 01  ICP 1 - 0,53,85,3,115,11,99,5,13,21,59,10,10
+ED-Mableton 5B  ICP 1 - 0,12,5,0,16,3,133,3,3,2,51,4,24
+ED-Mableton 5B  ICP 2 - 0,16,23,2,31,2,272,3,7,17,81,7,32
+ED-Rocky Mount 01  ICP 1 - 0,59,143,5,144,10,132,5,13,41,105,8,15
+ED-Vinings 02  ICP 1 - 0,34,36,0,69,10,240,5,7,34,116,5,21
+ED-Vinings 02  ICP 2 - 0,16,30,1,44,4,148,4,7,19,104,5,13
+ED-Acworth 1C  ICP 1 - 0,32,77,4,43,5,251,8,6,29,105,9,19
+ED-North Cobb 01  ICP 1 - 0,35,39,0,46,0,105,2,6,7,50,6,5
+ED-Lassiter 01  ICP 1 - 0,45,131,8,148,10,131,1,13,21,91,2,13
+ED-Bells Ferry 02  ICP 1 - 0,45,103,2,81,10,129,4,4,21,81,7,11
+ED-Mableton 4B  ICP 1 - 0,38,35,3,61,6,128,3,6,18,72,4,21
+ED-Addison 01  ICP 1 - 0,32,57,4,82,2,108,1,6,19,53,1,6
+ED-Powder Springs 3A  ICP 1 - 0,18,21,1,42,1,233,2,3,13,63,3,20
+ED-Mableton 3C  ICP 1 - 0,16,9,1,19,0,267,8,1,15,97,7,48
+ED-Powder Springs 3A  ICP 2 - 0,12,12,1,17,3,147,4,3,5,43,3,20
+ED-Oregon 01  ICP 1 - 0,47,67,3,68,5,75,0,4,7,55,3,16
+ED-Kemp 02  ICP 1 - 0,71,112,6,145,15,177,5,12,33,77,7,28
+ED-Marietta 7A  ICP 1 - 0,1,8,1,7,2,97,3,6,4,31,0,9
+ED-Marietta 7A  ICP 2 - 0,9,5,1,11,1,124,5,4,2,36,9,15
+ED-Fair Oaks 04  ICP 1 - 0,41,24,2,30,4,130,2,9,15,93,11,14
+ED-Kennesaw 4A  ICP 1 - 0,32,43,4,54,13,145,6,17,10,82,12,19
+ED-Oregon 03  ICP 2 - 0,16,19,3,31,7,112,1,3,9,52,3,9
+ED-Oregon 03  ICP 1 - 0,12,12,0,11,1,86,4,9,7,59,9,15
+ED-Kennesaw 3A  ICP 1 - 0,38,65,3,49,13,260,3,11,25,137,13,29
+ED-Marietta 2B  ICP 1 - 0,16,22,2,32,4,63,1,1,6,26,4,2
+ED-Norton Park 01  ICP 2 - 0,6,5,1,11,0,20,0,3,1,13,0,2
+ED-Marietta 2B  ICP 2 - 0,42,82,5,95,6,173,3,4,20,89,1,23
+ED-Norton Park 01  ICP 1 - 0,31,57,1,59,8,182,7,11,17,141,8,19
+ED-Macland 01  ICP 2 - 0,28,44,3,44,9,295,2,4,13,53,6,29
+ED-Roswell 02  ICP 1 - 0,62,113,4,201,17,91,1,3,42,105,6,10
+ED-Elizabeth 01  ICP 1 - 0,25,31,2,37,5,185,7,6,20,83,8,11
+ED-Marietta 4B  ICP 1 - 0,26,31,2,58,3,45,5,2,22,38,1,7
+ED-Timber Ridge 01  ICP 1 - 0,37,76,8,116,9,78,5,9,35,70,2,4
+ED-Fair Oaks 02  ICP 1 - 0,42,44,6,50,3,254,11,10,18,113,9,26
+ED-Roswell 01  ICP 1 - 0,104,195,8,225,26,173,1,4,65,135,11,11
+ED-Oregon 04  ICP 2 - 0,10,12,2,15,0,66,3,5,5,35,3,17
+ED-Oregon 04  ICP 1 - 0,24,24,0,35,5,181,4,6,15,59,4,41
+ED-Hightower 01  ICP 1 - 0,50,118,8,164,9,119,3,10,35,123,9,11
+ED-Chestnut Ridge 01  ICP 1 - 0,62,120,5,155,12,72,3,5,32,81,6,7
+ED-Smyrna 4A  ICP 2 - 0,23,38,3,69,10,102,7,2,19,95,6,14
+ED-Smyrna 4A  ICP 1 - 0,55,68,4,96,9,195,1,5,37,157,8,23
+ED-Smyrna 7A  ICP 1 - 0,31,36,5,66,3,427,9,4,48,218,9,45
+ED-Oakdale 01  ICP 1 - 0,33,45,5,80,7,186,9,5,25,137,5,16
+ED-Mableton 4C  ICP 1 - 0,15,30,1,26,9,294,8,6,22,109,7,47
+ED-Mableton 4C  ICP 2 - 0,2,5,0,7,3,59,0,0,4,18,2,14
+ED-Clarkdale 02  ICP 1 - 0,47,59,4,56,6,395,5,7,22,86,12,29
+ED-Sweetwater 01  ICP 1 - 0,20,48,0,43,4,207,2,5,10,52,6,24
+ICC-Election Day 1 - 1,3,1,0,3,0,0,0,0,0,0,0,0
+ICC-Election Day 1 - 2,0,2,0,0,0,2,1,0,0,1,0,0
+ED-Elizabeth 03  ICP 1 - 0,60,87,7,125,12,98,5,10,20,60,4,13
+ICC-Election Day 2 - 1,1,1,0,2,0,0,0,1,1,0,0,0
+ICC-Election Day 2 - 2,1,1,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 99,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 142,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 143,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Provisional 2 - 141,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 147,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 145,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 146,0,0,0,0,0,0,0,0,0,0,1,0
+ICC-Provisional 2 - 140,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 14,0,0,0,0,0,1,0,0,1,0,0,1
+ICC-Provisional 2 - 134,0,1,0,1,0,6,0,1,1,1,0,0
+ICC-Provisional 2 - 133,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 135,0,0,0,0,0,4,0,0,0,0,0,0
+ICC-Provisional 2 - 136,0,0,0,0,0,0,1,0,0,2,0,0
+ICC-Provisional 2 - 137,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 139,0,0,0,0,0,1,0,0,0,1,0,1
+ICC-Provisional 2 - 138,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 15,0,0,0,0,0,0,0,1,0,0,0,0
+ICC-Provisional 2 - 16,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 26,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 25,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 27,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 28,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 29,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 30,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 3,0,1,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 24,0,0,0,0,1,0,0,0,0,0,0,0
+ICC-Provisional 2 - 23,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 18,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 17,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 19,0,1,0,0,1,0,0,0,0,0,0,0
+ICC-Provisional 2 - 2,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 20,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 22,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 21,0,0,1,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 132,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 131,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 130,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 109,0,0,0,0,0,5,0,1,0,0,0,0
+ICC-Provisional 2 - 108,0,0,0,0,0,0,0,0,0,1,0,1
+ICC-Provisional 2 - 11,0,0,0,0,0,0,1,0,0,1,0,0
+ICC-Provisional 2 - 110,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Provisional 2 - 111,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 113,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 112,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 107,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 106,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 100,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 10,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 101,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Provisional 2 - 102,0,0,0,0,0,1,0,0,0,2,0,1
+ICC-Provisional 2 - 103,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 105,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 104,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 114,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 115,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 125,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 124,0,0,0,0,0,1,0,0,0,0,0,1
+ICC-Provisional 2 - 126,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 127,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 128,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 13,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 129,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 123,0,0,0,0,0,0,0,0,0,1,1,0
+ICC-Provisional 2 - 122,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 117,0,0,0,0,0,1,0,0,1,1,0,0
+ICC-Provisional 2 - 116,0,0,0,0,0,2,0,0,0,0,1,0
+ICC-Provisional 2 - 118,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Provisional 2 - 119,0,0,0,0,0,0,1,0,0,0,0,0
+ICC-Provisional 2 - 12,0,0,0,0,0,7,0,0,0,1,0,0
+ICC-Provisional 2 - 121,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 120,0,0,0,0,0,0,0,0,0,0,0,2
+ICC-Provisional 2 - 31,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 32,0,0,1,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 33,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 77,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Provisional 2 - 76,0,0,0,0,0,1,0,0,0,0,0,1
+ICC-Provisional 2 - 78,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Provisional 2 - 79,0,0,0,0,0,1,0,0,0,0,0,1
+ICC-Provisional 2 - 8,0,0,0,0,0,5,0,0,0,0,0,0
+ICC-Provisional 2 - 81,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Provisional 2 - 80,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 75,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 74,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Provisional 2 - 69,0,0,0,0,0,3,0,0,0,1,0,0
+ICC-Provisional 2 - 68,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Provisional 2 - 7,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 70,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Provisional 2 - 71,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 73,0,0,0,0,0,5,0,0,0,0,0,0
+ICC-Provisional 2 - 72,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 82,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 83,0,0,0,0,0,0,0,0,0,2,0,0
+ICC-Provisional 2 - 93,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 92,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 94,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 95,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 96,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 98,0,0,0,0,0,1,0,0,0,2,0,0
+ICC-Provisional 2 - 97,0,0,0,0,0,4,0,0,0,1,0,0
+ICC-Provisional 2 - 91,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Provisional 2 - 90,0,0,0,0,0,3,0,0,0,0,0,0
+ICC-Provisional 2 - 85,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 84,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 86,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 87,0,0,0,0,0,0,0,0,0,0,0,1
+ICC-Provisional 2 - 88,0,0,0,0,0,4,0,0,0,0,0,0
+ICC-Provisional 2 - 9,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 89,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 67,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 66,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 65,0,0,0,0,0,0,0,1,0,0,0,1
+ICC-Provisional 2 - 43,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 42,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 44,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 45,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 46,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 48,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 47,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 41,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 40,0,0,0,0,0,1,0,0,0,1,0,1
+ICC-Provisional 2 - 35,0,0,0,1,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 34,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 36,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 37,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 38,0,0,0,0,0,0,0,0,0,1,0,0
+ICC-Provisional 2 - 4,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 39,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 49,1,0,0,0,1,0,0,0,0,0,0,0
+ICC-Provisional 2 - 5,0,0,0,0,1,0,0,0,0,0,0,0
+ICC-Provisional 2 - 6,0,1,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 2 - 59,0,0,0,0,0,5,0,0,0,0,0,0
+ICC-Provisional 2 - 60,0,0,0,0,0,2,0,0,1,0,0,0
+ICC-Provisional 2 - 61,0,0,0,0,0,0,0,0,0,0,1,0
+ICC-Provisional 2 - 62,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 64,0,0,0,0,0,0,0,0,1,0,0,0
+ICC-Provisional 2 - 63,0,0,0,0,0,1,1,0,0,0,0,0
+ICC-Provisional 2 - 58,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Provisional 2 - 57,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 51,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 50,0,0,0,0,1,0,0,0,0,0,0,0
+ICC-Provisional 2 - 52,0,0,0,0,0,1,0,0,0,1,0,0
+ICC-Provisional 2 - 53,0,0,0,0,0,0,0,0,0,0,1,0
+ICC-Provisional 2 - 54,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 56,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 55,0,0,0,0,0,2,0,0,0,0,0,0
+ICC-Provisional 2 - 1,1,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 1 - 1,0,0,0,0,0,0,0,0,0,0,0,0
+ICC-Provisional 1 - 2,0,1,0,1,0,0,0,0,0,0,0,1
+ICC-Provisional 1 - 3,0,1,0,2,0,3,0,0,1,0,0,4
+ICC-Provisional 2 - 151,0,0,0,0,0,0,0,1,0,1,1,0
+ICC-Provisional 2 - 149,0,0,0,0,0,1,0,0,0,0,0,0
+ICC-Provisional 2 - 150,0,0,0,0,0,0,0,0,0,2,0,0
+ICC-Provisional 2 - 148,0,0,0,0,0,1,0,0,1,0,0,0
