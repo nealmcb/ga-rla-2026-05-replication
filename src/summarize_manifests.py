@@ -5,7 +5,7 @@ Summarize ballot manifests: county counts, batch counts, ballot counts, batch si
 import csv, os, statistics, collections
 from io import StringIO
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "2026-05-19-primary")
 manifest_dir = os.path.join(BASE, "extracted", "manifests")
 counties = sorted(os.listdir(manifest_dir))
 

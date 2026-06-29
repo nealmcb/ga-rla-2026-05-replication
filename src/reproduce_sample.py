@@ -27,7 +27,7 @@ except ImportError as e:
     print("Run: pip install consistent_sampler numpy")
     sys.exit(1)
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "2026-05-19-primary")
 
 # ── Key audit parameters (from final_audit_report.csv) ───────────────────────
 SEED = "06712221796172622814"

@@ -11,7 +11,6 @@ title: Transparency Gap Analysis
 ## PR #2350 Overview
 
 **Title:** "docs: Arlo comparison audit transparency report and guide"  
-**Author:** nealmcb (Neal McBurnett)  
 **Opened:** June 20, 2026  
 **Repository:** `github.com/votingworks/arlo`  
 **Related Issue:** #2351 — "Document and support best practices for running robust transparent reproducible audits"
@@ -78,7 +77,7 @@ The PR adds three planning documents to Arlo:
 | Discrepancy records | ✓ Present | "Change in Results" and "Change in Margin" in audit report |
 | Narrative discrepancy explanations | N/A (batch audit) | Numeric discrepancy counts are the standard and complete output for a batch comparison audit. Narrative explanations (e.g., "stray mark," "undervote") are a ballot-level concept, not applicable to MACRO. |
 | County-level tally sheets | Partial | Jasper County PDF found; no systematic county posting |
-| Final risk calculation | ✓ Present | P-values in final audit report (0.0491 Rep, 0.0417 Dem) |
+| Final risk calculation | ✓ Present | Risk levels in final audit report (0.0491 Rep, 0.0417 Dem) |
 | Final stopping rule / risk level | ✓ Present | Risk limit met? Yes (in audit report) |
 | Machine-readable audit report | ✓ Present | CSV format (Arlo's standard export) |
 | Risk calculation reproducible from public artifacts | Partial | MACRO source public; requires Arlo/numpy version |
@@ -123,26 +122,24 @@ The per-batch discrepancy rate and the per-ballot vote discrepancy rate tell ver
 
 5. **No separate "HMPB/BMD" flag in the published artifacts.** The ballot type must be inferred from batch names. Georgia could improve transparency by explicitly tagging each batch with its ballot type and ballot count in the manifest and audit report. This would also make the batch-size-driven discrepancy rate effect immediately visible in the official artifacts.
 
-For deeper analysis — including the Derrick Jackson directional pattern, the TOOMBS 1-ballot anomaly, batch-size reduction recommendations, and the case that discrepancy causes are undocumented — see the [Discrepancy Analysis report](https://nealmcb.github.io/ga-rla-2026-05-replication/reports/discrepancy_analysis/).
+For deeper analysis — including the Derrick Jackson directional pattern, the TOOMBS 1-ballot anomaly, batch-size reduction recommendations, and the case that discrepancy causes are undocumented — see the [Discrepancy Analysis report](../discrepancy_analysis/).
 
 ---
 
 ## Three Independent Check Results
 
 ### Check 1: Hash Commitment Check
-**Can a public observer confirm that the later-posted batch tallies are exactly the files committed before hand-counting began?**
+**Can a public observer confirm that the later-posted batch tallies are exactly the files committed at audit time?**
 
 **Result: ✓ VERIFIED**
 
-The @GaSecofState tweet thread (May 28, 2026, 11:52 AM EDT) committed SHA256 hashes of both artifact ZIPs before any county began hand-counting. Both hashes match the currently posted files exactly:
+The @GaSecofState tweet thread (May 28, 2026, 11:52 AM EDT) committed SHA256 hashes of both artifact ZIPs, apparently after the random seed had been entered and the sample drawn (~3 minutes earlier). Both hashes match the currently posted files exactly:
 - `manifests.zip`: `c31d1f67404634ea04b4c68a5272655c9bd3879fe2233f4878819963cfc17aaf` ✓
 - `candidate_totals.zip`: `2842be86bd615160f36f0af8f6d52a2fe1192103163dd51de8d8a1617ca10312` ✓
 
-**Caveat — timing:** The tweet came ~3 minutes after the Arlo round was started (seed entered and sample drawn). The commitment is therefore post-seed rather than pre-seed. The SOS explicitly chose this to prevent giving hand-counters "a number to hit." The commitment proves the files were not altered during or after hand-counting, but cannot rule out alteration in the brief window between seed entry and the tweet.
+**Caveat — timing:** The tweet came ~3 minutes after the Arlo round was started (seed entered and sample drawn). The commitment is therefore post-seed rather than pre-seed. The tweet thread explains why the actual data files were withheld until hand-counting finished (to avoid giving counters "a number to hit"), but does not address why the hash itself wasn't committed before the seed was entered. The commitment proves the files were not altered after the tweet, but cannot rule out alteration in the brief window between seed entry and the tweet.
 
-**Caveat — durability:** The commitment lives only on X/Twitter and is not archived on sos.ga.gov or linked from the official SOS audit page. The tweet URL was not provided in the SOS press release.
-
-**Correction to briefing:** The investigation briefing specified a prefix of `7d00771bf178007f4c6f43bf45b6`, which does not match either actual tweeted hash. That prefix appears to have been incorrect.
+**Caveat — durability:** The commitment lives only on X/Twitter and is not archived on sos.ga.gov or linked from the official SOS audit page.
 
 ### Check 2: Sample Selection Check
 **Can a public observer recompute the selected batches from the committed pre-seed artifacts and the dice-generated random seed?**
@@ -151,7 +148,7 @@ The @GaSecofState tweet thread (May 28, 2026, 11:52 AM EDT) committed SHA256 has
 
 - ✓ The seed is public (in the audit report)
 - ✓ Individual batch ticket numbers are exactly reproducible using public `consistent_sampler` library
-- ✓ Four ticket numbers verified
+- ✓ Ticket numbers reproducible (verified for a selection of batches; any batch in the audit report can be independently verified)
 - ✗ The full PPEB draw order requires the exact numpy version used by Arlo at audit time
 - ✗ No official sampler-inputs artifact was published
 
@@ -165,7 +162,7 @@ An independent observer can verify that individual batches were correctly assign
 - ✓ Hand-count results are in the final audit report
 - ✓ Reported results per batch are in the audit report
 - ✓ MACRO source code is publicly available in the Arlo repo
-- ✓ P-values (0.0491 Rep, 0.0417 Dem) are stated in the audit report
+- ✓ Risk levels (0.0491 Rep, 0.0417 Dem) are stated in the audit report
 - ✗ Exact floating-point calculation requires Arlo's Python Decimal arithmetic
 - ✗ The ballot count per batch (from manifests) must be correctly joined to candidate totals
 
@@ -174,9 +171,9 @@ An independent observer can verify that individual batches were correctly assign
 ## What Georgia Does Well
 
 1. **Posts all three major artifact types**: final audit report (with hand counts), ballot manifests, and machine batch tallies — more than most jurisdictions provide
-2. **Hash commitment verified**: Both `manifests.zip` and `candidate_totals.zip` hashes were committed in a public tweet thread before hand-counting began and match the currently posted files exactly
+2. **Hash commitment verified**: Both `manifests.zip` and `candidate_totals.zip` hashes were committed in a public tweet thread (apparently after the seed was entered) and match the currently posted files exactly
 3. **Includes the random seed in the final audit report** — the seed (`06712221796172622814`) is publicly available
-4. **Includes per-batch ticket numbers** — allowing partial independent verification (4/4 verified)
+4. **Includes per-batch ticket numbers** — allowing independent verification of any batch in the audit report
 5. **Provides machine-readable CSV exports** — not scanned images or PDFs
 6. **Public dice-roll event** — 20 participants, observed by media and the public
 7. **Covers all 159 counties** — complete statewide scope
@@ -188,7 +185,7 @@ An independent observer can verify that individual batches were correctly assign
 
 ## Transparency Gaps
 
-1. **Hash commitment is post-seed, not pre-seed**: The tweet appeared ~3 minutes after the Arlo round started (seed entered, sample drawn). While it correctly commits the files before any hand-counting began, it does not prevent a scenario where someone with insider knowledge of the seed could alter batch tallies in the ~3 minute window. Committing before the dice roll would eliminate this residual risk.
+1. **Hash commitment is post-seed, not pre-seed**: The tweet appeared ~3 minutes after the Arlo round started (seed entered, sample drawn). It does not prevent a scenario where someone with advance knowledge of the seed and the batches to be drawn could alter batch tallies in that ~3-minute window. Committing the hash before the dice roll would eliminate this residual risk.
 2. **Commitment is hosted on X/Twitter only**: Not archived on sos.ga.gov; not linked from the official audit page; X imposes login/payment barriers for access
 3. **No sampler inputs file**: There is no structured artifact listing all inputs to the PPEB sampler (contest totals, batch totals, risk limit, numpy seed) as a single machine-readable document
 4. **No Arlo version specified**: Observers cannot know which Arlo code version to use for reproduction
@@ -258,4 +255,4 @@ These gaps do not indicate the audit outcome was wrong. Georgia's 2026 RLA is am
 
 See the [Executive Summary](../README/) for the full recommendation list, and [Arlo Issue #2351](https://github.com/votingworks/arlo/issues/2351) for the ongoing discussion of transparency best practices.
 
-Comments on this analysis are welcome as [GitHub Issues](https://github.com/nealmcb/ga-rla-2026-05-replication/issues).
+Comments on this analysis are welcome as [GitHub Issues](https://github.com/nealmcb/rla-review-arlo/issues).

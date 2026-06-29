@@ -71,7 +71,9 @@ def batch_ticket(county: str, batch_name: str, seed: str) -> str:
 
 ### Verified Matches
 
-All four ticket numbers sampled from the audit report were independently reproduced:
+Ticket numbers from a selection of batches in the audit report were independently reproduced
+using the formula above. Any of the 706 batches in the audit report can be verified the same way.
+The following four were chosen to span different counties and ballot types:
 
 | County | Batch | Audit Report Ticket | Computed Ticket | Match |
 |--------|-------|--------------------|--------------------|-------|
@@ -175,14 +177,14 @@ The small diluted margin for the Senate race (0.0222) requires a larger sample; 
 
 ## Risk Calculation
 
-The MACRO stopping rule computes a p-value (risk level) from:
+The MACRO stopping rule computes a risk level from:
 1. The reported batch totals (from the candidate totals ZIP)
 2. The hand-count audit results (in the final audit report, "Audit Results" columns)
 3. The per-batch error bounds (the U and max_error values)
 
 ### Final Risk Levels
 
-| Contest | Risk Limit | Achieved Risk (p-value) | Risk Met? |
+| Contest | Risk Limit | Achieved Risk Level | Risk Met? |
 |---------|------------|------------------------|-----------|
 | US Senate - Rep | 5% | 0.049083729 (4.91%) | Yes |
 | Governor - Dem | 5% | 0.041726014 (4.17%) | Yes |
@@ -222,7 +224,7 @@ human reading of the printed text on BMD ballots. The magnitude of discrepancies
 (mostly 1-2 votes per batch, with net changes across all batches) is well within
 the MACRO error bounds that allow the audit to conclude.
 
-The fact that the p-value is 0.0491 (just below the 5% threshold) for the Senate race
+The fact that the risk level is 0.0491 (just below the 5% threshold) for the Senate race
 indicates the audit was close to requiring an additional round — a sign of a tight race
 and a meaningful audit rather than a rubber stamp.
 

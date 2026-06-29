@@ -5,7 +5,7 @@ May 19, 2026 General Primary RLA using Arlo's sampler logic and numpy 1.26.4
 
 Requires: pip install consistent_sampler "numpy==1.26.4"
 
-Usage: python3 scripts/reproduce_ppeb_sample.py
+Usage: python3 src/reproduce_ppeb_sample.py
 
 Key findings on batch ordering (required for exact reproduction):
   - Counties must be in ALPHABETICAL order (how Arlo queries its database:
@@ -43,7 +43,7 @@ Contest          = arlo_sampler_contest.Contest
 
 # ── Parse audit report for contest totals and sample sizes ────────────────────
 SEED      = "06712221796172622814"
-ROOT      = pathlib.Path(__file__).parent.parent
+ROOT      = pathlib.Path(__file__).parent.parent / "2026-05-19-primary"
 AUDIT_CSV = ROOT / "downloads/final_audit_report.csv"
 
 with open(AUDIT_CSV) as f:

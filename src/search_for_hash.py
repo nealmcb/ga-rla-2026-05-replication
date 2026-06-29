@@ -7,7 +7,7 @@ Known prefix: 7d00771bf178007f4c6f43bf45b6
 """
 import hashlib, os, zipfile, sys
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "2026-05-19-primary")
 KNOWN_PREFIX = "7d00771bf178007f4c6f43bf45b6"
 
 def sha256_of(path):

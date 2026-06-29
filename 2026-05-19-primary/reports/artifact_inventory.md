@@ -27,7 +27,6 @@ All files served via MailChimp CDN (mcusercontent.com → CloudFront).
 | Last-Modified | not provided |
 | ETag | not provided |
 | SHA256 | `1efa76b808f82527f72bb5bd81d14de1b820bf9b76534fbfc1a5d71663b042a8` |
-| SHA512 | `dab54c6d2803456d721cb714d875e7019e842dd8d0e8049698b1878224beb7bf11d31ec514cb755e588ec91a032f7058b9b6186f922ee585d32d0472185739bf` |
 | Downloaded | 2026-06-29T15:28 UTC |
 | Format | CSV (multi-section Arlo export) |
 
@@ -51,7 +50,6 @@ All files served via MailChimp CDN (mcusercontent.com → CloudFront).
 | Last-Modified | not provided |
 | ETag | not provided |
 | SHA256 | `c31d1f67404634ea04b4c68a5272655c9bd3879fe2233f4878819963cfc17aaf` |
-| SHA512 | `0e033b56cf864e5a71745a44d92780f06dcd7b0d6e9f67f618628bde7c17e3da45cdbe9e35e19b08a7610e33d5b3a0c414bf0d86f22c130a21a5ed1bfcd1496f` |
 | Downloaded | 2026-06-29T15:29 UTC |
 | Format | ZIP of 159 county CSVs |
 | ZIP internal timestamps | 1980-01-01 00:00 (zeroed by tool) |
@@ -74,7 +72,6 @@ All files served via MailChimp CDN (mcusercontent.com → CloudFront).
 | Last-Modified | not provided |
 | ETag | not provided |
 | SHA256 | `2842be86bd615160f36f0af8f6d52a2fe1192103163dd51de8d8a1617ca10312` |
-| SHA512 | `e568ec52ea6be274597533867c0fe0ed59b65e11f2afd86940197a2fe71506ddf859c99c773a83a09f28dab89b937bf2640977cbea2f9901afad4da26c860555` |
 | Downloaded | 2026-06-29T15:29 UTC |
 | Format | ZIP of 159 county CSVs |
 | ZIP internal timestamps | 1980-01-01 00:00 (zeroed) |

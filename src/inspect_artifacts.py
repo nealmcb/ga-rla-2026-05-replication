@@ -6,7 +6,7 @@ Prints schema, row counts, contests, and key values from the final audit report.
 import csv, sys, os
 from io import StringIO
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "2026-05-19-primary")
 
 def inspect_final_report():
     path = os.path.join(BASE, "downloads", "final_audit_report.csv")

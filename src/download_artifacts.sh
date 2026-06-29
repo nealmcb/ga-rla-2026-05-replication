@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Download Georgia May 19, 2026 RLA artifacts with HTTP headers saved separately.
 set -euo pipefail
-BASE="$(cd "$(dirname "$0")/.." && pwd)"
+BASE="$(cd "$(dirname "$0")/.." && pwd)/2026-05-19-primary"
 mkdir -p "$BASE/downloads" "$BASE/headers"
 
 echo "Downloading final audit report..."
