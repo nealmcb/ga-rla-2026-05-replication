@@ -256,6 +256,6 @@ These gaps do not mean the audit was wrong. They mean the audit record does not 
 
 These gaps do not indicate the audit outcome was wrong. Georgia's 2026 RLA is among the strongest public audit records in the country. The goal of this analysis is to identify the specific procedural and publication steps that would move the record from "conducted and credible" to "independently reproducible by any member of the public."
 
-See the [Executive Summary](README/) for the full recommendation list, and [Arlo Issue #2351](https://github.com/votingworks/arlo/issues/2351) for the ongoing discussion of transparency best practices.
+See the [Executive Summary](../README/) for the full recommendation list, and [Arlo Issue #2351](https://github.com/votingworks/arlo/issues/2351) for the ongoing discussion of transparency best practices.
 
 Comments on this analysis are welcome as [GitHub Issues](https://github.com/nealmcb/ga-rla-2026-05-replication/issues).

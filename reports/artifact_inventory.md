@@ -127,4 +127,4 @@ The SOS June 3 press release states:
 
 Note: An earlier version of this investigation used an incorrect prefix (`7d00771bf178007f4c6f43bf45b6`) that does not correspond to either file. The actual tweeted hashes are the full 64-character values above.
 
-See the [Hash Commitment Analysis](hash_commitment/) for full details.
+See the [Hash Commitment Analysis](../hash_commitment/) for full details.

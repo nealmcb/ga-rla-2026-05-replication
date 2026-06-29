@@ -180,7 +180,7 @@ The files currently posted are the same bytes committed in the May 28 tweet. The
 
 ## Comparison to Arlo PR #2350 Transparency Framework
 
-[Arlo PR #2350](https://github.com/votingworks/arlo/pull/2350) ("docs: Arlo comparison audit transparency report and guide", opened June 20, 2026) establishes a three-phase transparency framework for comparison audits — pre-seed, post-seed/pre-comparison, and post-audit — and distinguishes "audit was conducted" from "audit is independently reproducible." The full checklist comparison appears in the [Transparency Gap Analysis](transparency_gap_analysis/).
+[Arlo PR #2350](https://github.com/votingworks/arlo/pull/2350) ("docs: Arlo comparison audit transparency report and guide", opened June 20, 2026) establishes a three-phase transparency framework for comparison audits — pre-seed, post-seed/pre-comparison, and post-audit — and distinguishes "audit was conducted" from "audit is independently reproducible." The full checklist comparison appears in the [Transparency Gap Analysis](../transparency_gap_analysis/).
 
 **What Georgia already does well:**
 Georgia posts all three major artifact types (report, manifests, tallies) in machine-readable CSV format, includes the random seed in the report, lists per-batch ticket numbers, held a public dice-roll event, expanded to two contests in 2026, achieved a 5% risk limit, and committed both artifact hashes on social media before hand-counting began — placing it ahead of most US jurisdictions.
