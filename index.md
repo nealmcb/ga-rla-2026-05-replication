@@ -6,8 +6,8 @@ title: Georgia May 2026 RLA — Transparency Analysis
 # Georgia May 19, 2026 General Primary
 ## Risk-Limiting Audit — Transparency Analysis
 
-**Version:** v0.1-draft &nbsp;·&nbsp; **Date:** 2026-06-29 &nbsp;·&nbsp;
-[v0.1-draft tag](https://github.com/nealmcb/ga-rla-2026-05-replication/releases/tag/v0.1-draft) &nbsp;·&nbsp;
+**Version:** v0.2 &nbsp;·&nbsp; **Date:** 2026-06-29 &nbsp;·&nbsp;
+[v0.2 tag](https://github.com/nealmcb/ga-rla-2026-05-replication/releases/tag/v0.2) &nbsp;·&nbsp;
 [Repository](https://github.com/nealmcb/ga-rla-2026-05-replication) &nbsp;·&nbsp;
 [Comments / Issues](https://github.com/nealmcb/ga-rla-2026-05-replication/issues)
 

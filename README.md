@@ -1,6 +1,6 @@
 # Georgia May 2026 RLA — Transparency Analysis
 
-**Version:** v0.1-draft &nbsp;·&nbsp; **Date:** 2026-06-29
+**Version:** v0.2 &nbsp;·&nbsp; **Date:** 2026-06-29
 
 Independent replication and transparency analysis of Georgia's **May 19, 2026 General Primary Risk-Limiting Audit** — BATCH\_COMPARISON/MACRO, Arlo (VotingWorks), all 159 counties, 5% risk limit.
 
