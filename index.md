@@ -67,13 +67,13 @@ The ~5× gap between BMD and HMPB discrepancy rates is **expected and documented
 
 ### Why This Still Matters
 
-The MACRO audit **proves that QR codes were counted correctly**. It does **not** prove that QR codes correctly encoded voter intent. That gap can only be closed by voters themselves reviewing the human-readable text at the time of voting and confirming it matches their choices.
+The MACRO audit provides evidence — within the 5% risk limit — that the QR-code tabulated totals for the two audited contests are consistent with a hand read of the printed text. It provides no direct evidence about whether QR codes correctly encoded voter intent. That gap can only be narrowed by voters themselves reviewing the human-readable text at the time of voting and confirming it matches their choices.
 
-Research consistently shows that most voters do not carefully verify their BMD printout before inserting it into the scanner. A systematic attack or error in the BMD encoding logic that produced QR codes inconsistent with printed text would be undetectable by batch-comparison RLA alone; it would only be detectable if voters noticed and reported discrepancies at the time of voting, or if a separate ballot-image audit compared scanner reads to optical reads of the same ballot.
+Research consistently shows that most voters do not carefully verify their BMD printout before inserting it into the scanner. A systematic error in the BMD encoding logic that produced QR codes inconsistent with printed text would not be detectable by batch-comparison RLA alone; it would only surface if voters noticed and reported discrepancies at the time of voting, or through a separate ballot-image audit comparing scanner reads to optical reads of the same ballot.
 
 **Policy implication:** The most direct improvement within the current framework is a voter-education campaign encouraging every BMD voter to pause and read the full printed text on their ballot before casting it. A longer-term improvement is expanding HMPB use (absentee by mail or in-person hand-marking options), which eliminates the QR-code trust gap entirely.
 
-The Advance Voting BMD discrepancy rate (33.9%) is substantially higher than the Election Day BMD rate (13.8%), possibly because AV batches are larger (median ~1,760 ballots vs. ~400 for ED), giving more opportunities per batch for a single-vote text-vs-QR difference to appear. This warrants further investigation in future audits.
+The per-batch BMD discrepancy rates (33.9% AV, 13.8% ED) are substantially higher than HMPB rates — but this is largely a batch-size effect. BMD-AV batches average 1,613 ballots vs. 24 for absentee ICC containers. On a per-ballot basis, HMPB has a *higher* discrepancy rate (2.1‰ vs. 0.6–0.8‰ for BMD), driven by the ambiguity inherent in reading hand-marked ovals. See the [Discrepancy Analysis report](https://nealmcb.github.io/ga-rla-2026-05-replication/reports/discrepancy_analysis/) for full detail.
 
 ---
 
@@ -85,7 +85,7 @@ The Advance Voting BMD discrepancy rate (33.9%) is substantially higher than the
 
 3. **Commitment durability.** The sole record of the hash commitment is an X/Twitter thread. It is not archived on sos.ga.gov or linked from the official SOS audit page.
 
-4. **PPEB draw requires exact software version.** Individual ticket numbers are reproducible (4/4 verified), but fully replicating the complete weighted sample draw (PPEB/MACRO) requires the exact numpy version used by Arlo at audit time, which was not published.
+4. **PPEB draw requires exact numpy version.** The full weighted sample draw (134/134 Sen Rep + 18/18 Gov Dem reproduced) requires numpy 1.26.4, matching Arlo's `poetry.lock` pin. This version was not published with the audit artifacts, though it is derivable from Arlo's public lock file.
 
 5. **BMD voter verification not measured.** The audit report contains no data on whether voters reviewed their printed ballots. The batch discrepancy statistics in this repository are a proxy for QR-vs-text differences but cannot directly measure the voter-verification rate.
 
