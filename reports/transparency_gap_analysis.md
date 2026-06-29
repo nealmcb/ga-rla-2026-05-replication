@@ -90,39 +90,40 @@ The PR adds three planning documents to Arlo:
 
 Georgia uses two ballot types with fundamentally different discrepancy sources:
 
-- **BMD (Ballot Marking Device)**: In-person voting (Election Day, Advance Voting). The machine reads a QR code; audit boards read the human-readable printed text. Discrepancies arise when QR-code machine tallies differ from what auditors read on the printed text.
-- **HMPB (Hand-Marked Paper Ballot)**: Absentee by Mail and Provisional. Hand-marked ovals read optically; audit boards read the same physical marks. Discrepancies tend to be fewer because both reads interpret the same marks.
+- **BMD (Ballot Marking Device)**: In-person voting (Election Day, Advance Voting). The machine reads a QR code; the auditor reads the human-readable printed text on the same ballot. Discrepancies arise when the QR-code tally differs from what the auditor tallies from the printed text.
+- **HMPB (Hand-Marked Paper Ballot)**: Absentee by Mail and Provisional. The voter hand-marks ovals; the scanner reads those optical marks; the auditor reads the same physical marks. Discrepancies arise from interpretive ambiguity in the ink marks themselves — partial fills, corrections, light marks.
 
 Batch types were classified from the audit report batch name conventions:
-- `ICC-Absentee by Mail` / `Absentee by Mail ICC` → Absentee-by-Mail (HMPB)
+- `ICC-Absentee by Mail` / `Absentee by Mail ICC` / `Absentee by Mail` → Absentee-by-Mail (HMPB)
 - `ICC-Provisional` / `Provisional` → Provisional (HMPB)
 - `AV-...` / `Advance Voting` → Advance Voting (BMD)
-- `ED-...` → Election Day (BMD)
-- Combined/non-standard naming → Combined/Unknown
+- `ED-...` / `Election Day` → Election Day (BMD)
 
-### Results (706 sampled batches)
+### Results (706 audited batches) — two metrics
 
-| Batch Type | Batches | Ballots | Disc-Rep | Disc-Dem | % Batches with Disc | Σ Margin Δ Rep | Σ Margin Δ Dem |
-|------------|---------|---------|----------|----------|---------------------|----------------|----------------|
-| Absentee-by-Mail **(HMPB)** | 214 | 5,679 | 7 | 9 | **6.5%** | 7 | 13 |
-| Provisional **(HMPB)** | 38 | 161 | 1 | 1 | **5.3%** | 2 | 1 |
-| Other ICC (HMPB) | 4 | 200 | 0 | 0 | **0.0%** | 0 | 0 |
-| Election Day **(BMD)** | 269 | 108,070 | 22 | 24 | **13.8%** | 32 | 35 |
-| Advance Voting **(BMD)** | 118 | 207,771 | 28 | 23 | **33.9%** | 47 | 48 |
-| Combined/Unknown | 63 | 19,935 | 2 | 7 | **11.1%** | 3 | 9 |
-| **TOTAL** | **706** | **341,816** | **60** | **64** | **14.2%** | **91** | **106** |
+The per-batch discrepancy rate and the per-ballot vote discrepancy rate tell very different stories. **Both are shown; the per-ballot rate is the more meaningful comparison.**
+
+| Batch Type | Batches | Median Batch Size | % Batches w/ Disc | \|Δ votes\| | **\|Δ votes\|/1000 bal** | Σ Margin Δ Rep | Σ Margin Δ Dem |
+|------------|---------|------------------|-------------------|------------|--------------------------|----------------|----------------|
+| Absentee-by-Mail **(HMPB)** | 284 | **24 ballots** | 6.7% | 31 | **2.12‰** | — | — |
+| Provisional **(HMPB)** | 12 | 1 ballot | 8.3% | 2 | 111‰ *(18 ballots — not significant)* | — | — |
+| Election Day **(BMD)** | 290 | **340 ballots** | 13.8% | 98 | **0.83‰** | 32 | 35 |
+| Advance Voting **(BMD)** | 117 | **1,613 ballots** | 34.2% | 126 | **0.60‰** | 47 | 48 |
+| **TOTAL** | **706** | — | **14.2%** | **257** | **0.75‰** | **91** | **106** |
 
 ### Findings
 
-1. **BMD batches have substantially higher discrepancy rates** than HMPB batches. Advance Voting BMD batches showed a 33.9% per-batch discrepancy rate vs. 6.5% for Absentee-by-Mail HMPB batches — a ~5× difference.
+1. **The per-batch discrepancy rate is dominated by batch size, not ballot type.** The ~5× gap between BMD-AV (34.2%) and HMPB-ABM (6.7%) per-batch rates is almost entirely explained by batch size: a BMD-AV batch averages **1,613 ballots** while an absentee ICC container averages **24 ballots**. A single-vote difference in a 1,613-ballot batch shows up as a batch discrepancy; a single-vote difference in a 24-ballot batch is equally likely but constitutes a far smaller fraction of batches having any error.
 
-2. **This pattern is expected and non-alarming.** For BMD ballots, human auditors read printed text while machines read QR codes. Minor differences in how individual votes are printed vs. encoded, or how auditors interpret over/undervotes in the text, produce more frequent single-vote discrepancies. HMPB auditors and machines are both reading the same hand-marked ovals, so agreement is higher.
+2. **Per ballot, HMPB has a higher discrepancy rate than BMD.** At 2.12‰, absentee HMPB batches show 2.5–3.5× more vote discrepancies per ballot than BMD batches (0.60–0.83‰). This is the expected result from audit literature: hand-marked ovals are physically ambiguous in ways that printed BMD text is not. Partially filled marks, pen corrections, and light strokes that pass a scanner threshold but look empty to a human auditor are the primary source of HMPB discrepancies. BMD discrepancies, by contrast, most likely reflect auditor tallying errors on clear printed text — or, in principle, QR-vs-text encoding disagreements that cannot be distinguished from counting errors in the published artifacts.
 
-3. **Within BMD types, Advance Voting (33.9%) far exceeds Election Day (13.8%).** This may reflect larger AV batches (median ~1,760 ballots vs. ~401 for ED) — more ballots per batch means more chances for a one-vote discrepancy to appear. It could also reflect differences in auditor training, auditing location, or scanner calibration across the two voting periods.
+3. **Within BMD types, Advance Voting (34.2%) far exceeds Election Day (13.8%)** — but the per-ballot rates are similar (0.60‰ vs. 0.83‰). The per-batch gap is again a batch-size artifact: AV median batch is 1,613 ballots vs. 340 for ED.
 
-4. **Discrepancy magnitudes are small.** The total margin change across all 706 sampled batches is 91 votes (Rep) and 106 votes (Dem) — out of 341,816 ballots hand-counted. No discrepancy was large enough to approach changing the outcome of either contest.
+4. **Discrepancy magnitudes are small.** The total margin change across all 706 audited batches is 91 votes (Rep) and 106 votes (Dem) out of 341,816 ballots hand-counted. No discrepancy was large enough to approach changing the outcome of either contest.
 
-5. **No separate "HMPB/BMD" flag in the published artifacts.** The ballot type must be inferred from batch names. Georgia could improve transparency by explicitly tagging each batch with its ballot type in the manifest and audit report.
+5. **No separate "HMPB/BMD" flag in the published artifacts.** The ballot type must be inferred from batch names. Georgia could improve transparency by explicitly tagging each batch with its ballot type and ballot count in the manifest and audit report. This would also make the batch-size-driven discrepancy rate effect immediately visible in the official artifacts.
+
+For deeper analysis — including the Derrick Jackson directional pattern, the TOOMBS 1-ballot anomaly, batch-size reduction recommendations, and the case that discrepancy causes are undocumented — see the [Discrepancy Analysis report](https://nealmcb.github.io/ga-rla-2026-05-replication/reports/discrepancy_analysis/).
 
 ---
 

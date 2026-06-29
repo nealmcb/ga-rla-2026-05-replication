@@ -53,17 +53,17 @@ Georgia uses two ballot technologies whose interaction with RLA is fundamentally
 
 ### Discrepancy Rates by Ballot Type (from the Audit Report)
 
-The scripts in this repository classify the 706 sampled batches by ballot type using the batch-name conventions embedded in the official manifest:
+The scripts in this repository classify the 706 audited batches by ballot type using batch-name conventions embedded in the official manifest. Two metrics are shown; the per-ballot rate is the more meaningful one:
 
-| Ballot Type | Batches | Ballots | % Batches with Discrepancy |
-|-------------|---------|---------|---------------------------|
-| Absentee-by-Mail **(HMPB)** | 214 | 5,679 | **6.5%** |
-| Provisional **(HMPB)** | 38 | 161 | **5.3%** |
-| Election Day **(BMD)** | 269 | 108,070 | **13.8%** |
-| Advance Voting **(BMD)** | 118 | 207,771 | **33.9%** |
-| Combined/Unknown | 63 | 19,935 | 11.1% |
+| Ballot Type | Batches | Median Batch Size | % Batches w/ Discrepancy | |Δ votes| / 1000 ballots |
+|-------------|---------|------------------|--------------------------|-------------------------|
+| Absentee-by-Mail **(HMPB)** | 284 | **24 ballots** | 6.7% | **2.12‰** |
+| Election Day **(BMD)** | 290 | **340 ballots** | 13.8% | **0.83‰** |
+| Advance Voting **(BMD)** | 117 | **1,613 ballots** | 34.2% | **0.60‰** |
 
-The ~5× gap between BMD and HMPB discrepancy rates is **expected and documented in the audit literature**: auditors reading printed text will occasionally disagree with machines reading QR codes by one vote in a large batch, without any malicious activity. These discrepancies were small (typically 1–2 votes per batch), varied in direction, and did not change the outcome of either audited contest.
+**The per-batch column is misleading.** The ~5× gap in per-batch rates (6.7% HMPB vs. 34.2% AV-BMD) is overwhelmingly a batch-size artifact: an AV scanner batch averaging 1,613 ballots has far more opportunities per batch for a single-vote difference to appear than a 24-ballot absentee container. When measured per ballot, the rates invert — **HMPB has 2.5–3.5× more vote discrepancies per ballot than BMD**, driven by the interpretive ambiguity of hand-marked ovals (a well-documented property of optical-mark ballots). BMD discrepancies at 0.60–0.83‰ are consistent with auditor tallying errors on clearly printed text.
+
+Discrepancy magnitudes were small (typically 1–2 votes per batch) and did not change the outcome of either contest. The causes of individual discrepancies — whether auditor counting error, QR-vs-text encoding disagreement, or something else — are **not documented in any published Georgia artifact**.
 
 ### Why This Still Matters
 
