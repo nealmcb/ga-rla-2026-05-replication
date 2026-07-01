@@ -5,12 +5,12 @@ title: Executive Summary
 
 # Georgia May 19, 2026 General Primary RLA — Executive Summary
 
-**Version:** v0.15 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z  
+**Version:** v0.16 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z  
 **Repository:** [github.com/nealmcb/rla-review-arlo](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [Back to main page](../)
 
 ---
 
-> **AI-assisted analysis, partially reviewed.** This review was produced with significant AI assistance (Claude, Anthropic) and reviewed by [Neal McBurnett](https://neal.mcburnett.org/). Findings are ongoing; some claims may require further verification. Errors and corrections welcome via [GitHub Issues](https://github.com/nealmcb/rla-review-arlo/issues).
+> **AI-assisted analysis, partially reviewed.** This analysis was produced with significant AI assistance (Claude, Anthropic). Findings are ongoing and some claims may require further verification. Corrections welcome via [GitHub Issues](https://github.com/nealmcb/rla-review-arlo/issues).
 
 ## Executive Summary
 

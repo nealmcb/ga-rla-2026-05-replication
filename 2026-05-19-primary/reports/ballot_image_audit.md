@@ -5,11 +5,11 @@ title: Ballot Image Audit Analysis
 
 # Ballot Image Audit Analysis — Georgia May 19, 2026 General Primary
 
-**Version:** v0.15 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
+**Version:** v0.16 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
 
 ---
 
-> **AI-assisted analysis, partially reviewed.** This review was produced with significant AI assistance (Claude, Anthropic) and reviewed by [Neal McBurnett](https://neal.mcburnett.org/). Findings are ongoing; some claims may require further verification. Errors and corrections welcome via [GitHub Issues](https://github.com/nealmcb/rla-review-arlo/issues).
+> **AI-assisted analysis, partially reviewed.** This analysis was produced with significant AI assistance (Claude, Anthropic). Findings are ongoing and some claims may require further verification. Corrections welcome via [GitHub Issues](https://github.com/nealmcb/rla-review-arlo/issues).
 
 ## Summary
 
@@ -40,44 +40,43 @@ separate software system, then compares the result against the official certifie
 The Georgia SOS contracted **Enhanced Voting** to conduct this audit using their Enhanced
 Audit software. This is a **machine-vs-machine comparison**, not a human hand count:
 
-Enhanced Voting's Enhanced Audit software uses three data sources from each county:
+Both Enhanced Voting reports (Georgia Nov 2024 and South Carolina June 2026) describe three
+data sources supplied by counties:
 
-1. **Ballot images** — scanned images of each ballot (TIFF files). For BMD ballots these show
+1. **Ballot images** — scanned images of each ballot (TIFF files). For BMD ballots, these show
    both a QR code and the human-readable printed text. For HMPB ballots they show filled ovals.
-   Note: the *public* ballot image library (SOS website) contains only TIFF images with no
-   companion data; Enhanced Voting receives images directly from counties.
+   Inspection of Evans County's public ballot image ZIP confirmed: only TIFF files are present,
+   with no companion data files and no CVR information embedded in the TIFF tags.
 
-2. **CVR export** — a tabulator-generated structured data file (JSON or CSV/XML, one record
-   per ballot) containing the voting system's interpretation of each ballot based on its QR code
-   scan. This is the standard Dominion CVR export — a separate file from the images, not text
-   embedded in or alongside the TIFF. It records, for each ballot: ballot style, tabulator,
-   batch, sequence number, and for each contest what the scanner decoded from the QR code.
-   Enhanced Voting matches each ballot image to its CVR record using the ballot identifiers
-   present in both the image metadata and the CVR file.
+2. **Cast Vote Records (CVRs)** — per-ballot records of how the voting system interpreted each
+   ballot at scan time. The SC June 2026 report states Enhanced Voting received "ballot image
+   data, batch-level results, and cast vote records" and performed "cross referencing individual
+   ballot tabulation against the cast-vote record for each ballot." The Georgia Nov 2024 report
+   confirms CVR use via in-process findings: the Barrow County test-ballot issue "was found by
+   Enhanced Audit's cast vote record comparison" and the Wilkinson County issue "was found by
+   comparing the cast vote record to the images." Neither report specifies the CVR file format
+   or how ballot images are matched to their CVR records.
 
-3. **Election results files** — the certified county-level totals derived from aggregating all CVRs.
+3. **Election results files** — county-level certified totals.
 
-Enhanced Voting performs OCR on the ballot images — reading the printed human-readable text, **not**
-re-decoding the QR code from the image — and compares its independent interpretation against the
-other two sources:
+The audit's independent tabulation comes from OCR of the ballot images. The Georgia Nov 2024
+report states: *"The audit is intended to tabulate the same ballots from the human readable
+text and compare those results against the tabulator's results which were computed from the
+QR codes."*[¹] The SC June 2026 report states: *"Enhanced Audit uses optical character
+recognition (OCR) to examine only the human-readable text on South Carolina's summary
+ballots."*[²] Neither report states whether OCR of the image is cross-checked against an
+independent decode of the QR code from the same image.
 
 | Comparison | What it detects |
 |------------|----------------|
-| OCR of image text vs. CVR record for that ballot | Ballot-level disagreement between what was printed and what the QR code encoded (as recorded by the tabulator) |
+| OCR of image text vs. CVR for that ballot | Ballot-level disagreement between printed text and the tabulator's QR-code reading |
 | Aggregate OCR totals vs. election results file | County-level consistency check |
 
-**For BMD (in-person) ballots:** The Georgia November 2024 Enhanced Voting report states
-explicitly: *"The audit is intended to tabulate the same ballots from the human readable text
-and compare those results against the tabulator's results which were computed from the QR codes."*
-
 **What a discrepancy means — and its limits:** A ballot-level discrepancy means the OCR
-interpretation of the printed text disagrees with the CVR record. It does not by itself tell
-you whether (a) the QR code encoded something different from what was printed (QR encoding
-error), or (b) the OCR misread the text. When a discrepancy is flagged, human auditors review
-the ballot image directly to confirm what the printed text says. If the human confirms the
-printed text disagrees with the CVR, that is a documented QR-vs-text mismatch — but the
-underlying cause (encoder bug, BMD software error, image tampering) cannot be determined from
-the image and CVR alone without also independently decoding the QR code from the image.
+interpretation of the printed text disagrees with the CVR. This could be (a) a genuine
+QR-vs-text encoding error, or (b) an OCR misread. When flagged, human auditors view the
+ballot image to confirm what the printed text shows. The reports do not state whether
+auditors also independently decode the QR code from the image to resolve ambiguity.
 
 Note: Georgia uses Dominion ImageCast X BMDs with QR codes; South Carolina uses ES&S
 ExpressVote BMDs with PDF417 barcodes. Different encoding schemes, same OCR methodology.
@@ -516,3 +515,14 @@ SHA256:
 
 Source: Georgia Secretary of State, released ~2026-06-28 alongside the press release
 ["Ballot Image Audit Proves Georgia Elections are Most Accurate in Nation"](https://sos.ga.gov/news/ballot-image-audit-proves-georgia-elections-are-most-accurate-nation).
+
+---
+
+## Citations
+
+[¹] Enhanced Voting, *Ballot Image Audit Report – November 2024*, p. 8 (OCR Approach section).
+Georgia Secretary of State / Enhanced Voting, published November 2024.
+
+[²] Enhanced Voting, *Ballot Image Audit Report – June 2026*, p. 10 (Appendix A: Optical Character
+Recognition Approach). South Carolina State Election Commission, published June 2026.
+Available: `https://scvotes.gov/wp-content/uploads/2026/06/1.SC_ImageAuditRpt_June2026.pdf`
