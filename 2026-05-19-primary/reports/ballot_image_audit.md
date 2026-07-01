@@ -5,7 +5,7 @@ title: Ballot Image Audit Analysis
 
 # Ballot Image Audit Analysis — Georgia May 19, 2026 General Primary
 
-**Version:** v0.5 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
+**Version:** v0.6 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
 
 ---
 
@@ -43,17 +43,25 @@ This is a **machine-vs-machine comparison**, not a human hand count:
 | Audit | A second software pass re-reads the stored images and produces vote totals |
 | Comparison | The two sets of totals are compared contest by contest, county by county |
 
-**For BMD (in-person) ballots:** The scanner reads the QR code; the audit presumably re-reads
-either the QR code from the image or the human-readable printed text via OCR. A prior SOS
-audit report was titled "Confirms 100% Accuracy of QR Code," suggesting that at least some
-audits compare QR-to-QR. If this audit compares QR-based tabulation against text-based OCR,
-differences carry more interpretive weight; if it re-reads the same QR code from the image,
-most differences are mere image-quality artifacts.
+**For BMD (in-person) ballots:** The scanner reads the QR code; the audit may re-read the
+QR code from the stored image or may read the human-readable printed text via OCR. These are
+not equivalent. QR codes use Reed-Solomon error correction: they either decode correctly to
+the original data or fail to decode at all — there is no failure mode that silently produces
+a slightly different vote count. Therefore, if the audit re-reads QR codes and finds vote
+count differences, those differences cannot be attributed to image quality; they would
+indicate a reading methodology difference, a software bug, or some other systematic cause.
+If the audit instead reads the human-readable printed text via OCR, small differences are
+expected and meaningful — they represent genuine disagreements between what the QR code
+encoded and what the printed text says. A prior SOS press release was titled "Confirms 100%
+Accuracy of QR Code," suggesting at least some prior audits compared QR-to-QR; whether this
+audit does the same has not been publicly specified.
 
 **For HMPB (absentee/hand-marked) ballots:** Both original and audit use optical mark
 recognition (OMR), but on different substrates — the original reads the physical paper
-directly; the audit reads a digital image of that paper. Minor differences in image resolution,
-orientation, or lighting can cause borderline marks to be read differently.
+directly; the audit reads a digital image of that paper. Here, small differences are
+genuinely plausible: image resolution, scan orientation, or lighting can shift whether a
+borderline-filled bubble crosses the acceptance threshold. The 1–2 vote discrepancies seen
+in the data are most consistent with this OMR-threshold effect on HMPB ballots.
 
 The SOS has not published the technical specification of how the audit image-read differs from
 the original scan, so the precise source of discrepancies cannot be fully characterized from
@@ -61,18 +69,37 @@ public information.
 
 ---
 
-## Data Source
+## Data Sources
 
-**File:** `Contest Results Comparison with County Breakout.xlsx` (released ~2026-06-28)  
-**Rows:** 30,895 data rows  
-**Columns:** County, ContestId, ContestName, DetailId, DetailName, OriginalCount, AuditCount, Difference  
+Two artifacts were analyzed, representing two snapshots of the same underlying system:
 
+**Primary: `Contest Results Comparison with County Breakout.xlsx`** (released ~2026-06-28)  
+Rows: 30,895 data rows  
+Columns: County, ContestId, ContestName, DetailId, DetailName, OriginalCount, AuditCount, Difference  
 Each row is one county × one contest × one detail. The DetailId `BC` marks a "Ballots Cast"
 summary row; all other rows are individual candidates (or Yes/No choices for party questions
 and referenda).
 
-There is also a PDF summary (`contest_results_comparison_28.pdf`) covering Federal and State
-contests only.
+SHA256: `61679db828f4232420bd56f2a7640192b24fc03786f7f59d1ca7431694a6648e`
+
+**Supplemental: `contest_results_comparison_with_jurisdiction_details_15.pdf`** (created 2026-06-11 14:12 UTC)  
+1,923 pages covering all contests by jurisdiction. This is an **earlier version** of the
+same comparison, produced approximately 17 days before the Excel release. It shows fewer
+discrepancies, indicating the comparison system continued processing or reconciling data
+after June 11.
+
+| Metric | PDF (June 11) | Excel (June 28) |
+|--------|--------------|-----------------|
+| Unique named contests | ~550 | 974 |
+| Contest × county pairs | 7,322 | 9,169 |
+| Candidate rows with diff ≠ 0 | 316 | 406 |
+| Sum \|diff\| (candidate rows) | 716 | 994 |
+| Net signed difference | −348 | −548 |
+| BC rows with diff ≠ 0 | 69 | 75 |
+| Sum \|diff\| (BC rows) | 71 | 77 |
+
+The 90 additional discrepant candidate rows in the Excel likely represent either newly
+processed precincts or corrections applied between June 11 and June 28.
 
 ---
 
@@ -102,13 +129,15 @@ of the spreadsheet produces this number. We attempted:
 - All unique ContestIds: **132**
 
 The most plausible interpretation is that the SOS counts at **ballot-style granularity** rather
-than county granularity. Georgia precincts use different ballot styles — a county may have
-multiple ballot styles depending on which districts appear on the ballot. With 132 distinct
-ContestIds and 9,169 county×contest pairs, an average of ~13.5 "ballot style instances" per
-ContestId would yield ~1,782 ≈ 1,785. This can't be verified from the released file alone.
+than county granularity. Two independent estimates from the two released artifacts both
+converge on ~1,782:
 
-Alternatively, the 1,785 figure may come from the SOS's internal tabulation system, which
-tracks contests differently from this export.
+- **From the Excel**: 132 distinct ContestIds × ~13.5 county-average instances ≈ 1,782
+- **From the PDF**: ~550 unique named contests × ~3.25 ballot-style instances each ≈ 1,788
+
+Both calculations arrive near 1,785, suggesting the SOS system counts each
+contest-at-a-ballot-style as a unit, rather than each contest-at-a-county. This cannot
+be confirmed without access to the internal tabulation system or additional SOS clarification.
 
 ---
 
@@ -213,7 +242,40 @@ marks that the image re-read rejected. Whether those marks represented genuine v
 (in which case the original count is correct) or were scanner artifacts (in which case the
 audit is correct) cannot be determined from the spreadsheet.
 
-### 2. Net Direction: Audit Consistently Finds Fewer Votes
+### 2. Muscogee and Henry Counties: Systematic Judicial-Race Losses
+
+The June 11 PDF reveals a second county-level pattern not visible in the Excel's aggregate
+view: Muscogee County shows systematic negative differences across virtually every contested
+judicial race, and Henry County shows a similar (smaller) pattern.
+
+**Muscogee County** (from the June 11 PDF):
+
+| Race | Candidate | Diff |
+|------|-----------|------|
+| Sup. Court (Chattahoochee Circuit) | Tippi Cain Burch (I) | −15 |
+| Supreme Court (Land) | Ben Land (I) | −15 |
+| Court of Appeals (Padgett) | J. Wade Padgett (I) | −11 |
+| Court of Appeals (Markle) | David Todd Markle (I) | −10 |
+| Supreme Court (Warren) | Jen Auer Jordan | −10 |
+| Supreme Court (Bethel) | Miracle Rankin | −9 |
+| Court of Appeals (Gobeil) | Fatima Harris Felton | −7 |
+| Court of Appeals (Doyle) | Sara Doyle (I) | −7 |
+| Court of Appeals (Brown, III) | Will Wooten | −6 |
+| Court of Appeals (Gobeil) | Elizabeth D. Gobeil (I) | −5 |
+| Court of Appeals (Brown, III) | Trenton "Trent" Brown (I) | −5 |
+
+**Henry County**: Sara Doyle −10, Gobeil (Fatima Harris Felton) −9, Padgett −7, Brown (Will Wooten) −4,
+Warren (Jen Auer Jordan) −5, Bethel (both candidates) −2 each, plus party questions −2 each.
+
+Three observations parallel to the Cherokee pattern:
+1. **Consistent direction**: The audit finds fewer votes than the original scanner across essentially all judicial races in these counties.
+2. **Not candidate-specific**: Multiple unrelated races and candidates are affected the same way, ruling out any candidate-specific explanation.
+3. **Plausible mechanism**: Judicial races typically appear in a specific section of the ballot. A scanner calibration difference or image-quality artifact affecting that ballot section would produce exactly this pattern — systematically lower audit counts across every race in the section.
+
+It is not yet possible to determine which reading is more accurate — original scanner or
+image re-read — from the released data alone.
+
+### 3. Net Direction: Audit Consistently Finds Fewer Votes
 
 The net signed difference across all candidate rows is **−548** (audit found 548 fewer votes
 than original tabulation). The split:
@@ -226,7 +288,7 @@ This is not symmetric noise. The audit image-re-read is systematically more cons
 contributes roughly −180 votes to this net (9 questions × ~20 vote difference), but the
 directional bias persists even excluding Cherokee.
 
-### 3. No Outcome Changes
+### 4. No Outcome Changes
 
 All 1,785 (by SOS count) contest outcomes were confirmed. The smallest statewide winning
 margins (thousands of votes in most races) are orders of magnitude larger than any discrepancy
