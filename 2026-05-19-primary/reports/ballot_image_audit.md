@@ -5,7 +5,7 @@ title: Ballot Image Audit Analysis
 
 # Ballot Image Audit Analysis — Georgia May 19, 2026 General Primary
 
-**Version:** v0.13 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
+**Version:** v0.14 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
 
 ---
 
@@ -38,37 +38,50 @@ separate software system, then compares the result against the official certifie
 The Georgia SOS contracted **Enhanced Voting** to conduct this audit using their Enhanced
 Audit software. This is a **machine-vs-machine comparison**, not a human hand count:
 
-Enhanced Voting's Enhanced Audit software uses three data sources: ballot images, Cast Vote
-Records (CVRs), and election results files. It performs comparisons at two levels:
+Enhanced Voting's Enhanced Audit software uses three data sources from each county:
 
-| Level | What is compared |
-|-------|-----------------|
-| Ballot level | OCR interpretation of each ballot image vs. that ballot's CVR (the scanner's original reading of the QR code/barcode) |
-| Batch/county level | Aggregate OCR totals vs. official election results files |
+1. **Ballot images** — scanned images of each ballot (TIFF files). For BMD ballots these show
+   both a QR code and the human-readable printed text. For HMPB ballots they show filled ovals.
+   Note: the *public* ballot image library (SOS website) contains only TIFF images with no
+   companion data; Enhanced Voting receives images directly from counties.
 
-The step-by-step process:
+2. **CVR export** — a tabulator-generated structured data file (JSON or CSV/XML, one record
+   per ballot) containing the voting system's interpretation of each ballot based on its QR code
+   scan. This is the standard Dominion CVR export — a separate file from the images, not text
+   embedded in or alongside the TIFF. It records, for each ballot: ballot style, tabulator,
+   batch, sequence number, and for each contest what the scanner decoded from the QR code.
+   Enhanced Voting matches each ballot image to its CVR record using the ballot identifiers
+   present in both the image metadata and the CVR file.
 
-| Step | What happens |
-|------|-------------|
-| Election day | Scanner reads QR code (BMD) or optical marks (HMPB), saves a digital image, records a CVR, and tabulates |
-| Audit | Enhanced Audit applies OCR to stored ballot images, reading the printed human-readable text (BMD) or optical marks (HMPB); does not re-read the QR code from the image |
-| Comparison | OCR interpretation compared against each ballot's CVR (ballot level) and against certified results (county level); flagged discrepancies go to manual review |
+3. **Election results files** — the certified county-level totals derived from aggregating all CVRs.
 
-**For BMD (in-person) ballots:** The scanner tabulates from the QR code (Dominion system),
-producing a CVR. The audit reads the **printed human-readable text** via OCR — it does not
-re-read the QR code from the stored image. The Georgia November 2024 Enhanced Voting report
-states explicitly: *"The audit is intended to tabulate the same ballots from the human
-readable text and compare those results against the tabulator's results which were computed
-from the QR codes."* Because the CVR comes from QR-code reading and the OCR comes from
-text reading, **any disagreement between what the QR code encoded and what was printed is
-detected as a discrepancy.** This is the core verification the audit provides.
+Enhanced Voting performs OCR on the ballot images — reading the printed human-readable text, **not**
+re-decoding the QR code from the image — and compares its independent interpretation against the
+other two sources:
+
+| Comparison | What it detects |
+|------------|----------------|
+| OCR of image text vs. CVR record for that ballot | Ballot-level disagreement between what was printed and what the QR code encoded (as recorded by the tabulator) |
+| Aggregate OCR totals vs. election results file | County-level consistency check |
+
+**For BMD (in-person) ballots:** The Georgia November 2024 Enhanced Voting report states
+explicitly: *"The audit is intended to tabulate the same ballots from the human readable text
+and compare those results against the tabulator's results which were computed from the QR codes."*
+
+**What a discrepancy means — and its limits:** A ballot-level discrepancy means the OCR
+interpretation of the printed text disagrees with the CVR record. It does not by itself tell
+you whether (a) the QR code encoded something different from what was printed (QR encoding
+error), or (b) the OCR misread the text. When a discrepancy is flagged, human auditors review
+the ballot image directly to confirm what the printed text says. If the human confirms the
+printed text disagrees with the CVR, that is a documented QR-vs-text mismatch — but the
+underlying cause (encoder bug, BMD software error, image tampering) cannot be determined from
+the image and CVR alone without also independently decoding the QR code from the image.
 
 Note: Georgia uses Dominion ImageCast X BMDs with QR codes; South Carolina uses ES&S
-ExpressVote BMDs with PDF417 barcodes. The encoding differs, but Enhanced Voting's
-methodology is the same for both: OCR of printed text compared against the barcode/QR-based
-CVR. The Nov 2024 Georgia audit found **zero QR-vs-text differences** across 5,025,863 BMD
-ballots; the SC June 2026 audit found **zero barcode-vs-text differences** across 841,485
-summary ballots. Both confirm encoding and printed text agreed on every BMD ballot examined.
+ExpressVote BMDs with PDF417 barcodes. Different encoding schemes, same OCR methodology.
+The Nov 2024 Georgia audit found **zero** OCR-vs-CVR discrepancies across 5,025,863 BMD
+ballots; the SC June 2026 audit found **zero** such discrepancies across 841,485 summary
+ballots.
 
 **Known failure mode — missing printed text:** The SC June 2026 audit found 21 summary
 ballots across 13 counties where the printer failed to produce readable human-readable text
