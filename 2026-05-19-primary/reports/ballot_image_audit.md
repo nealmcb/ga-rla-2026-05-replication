@@ -5,7 +5,7 @@ title: Ballot Image Audit Analysis
 
 # Ballot Image Audit Analysis — Georgia May 19, 2026 General Primary
 
-**Version:** v0.9 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
+**Version:** v0.10 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
 
 ---
 
@@ -109,24 +109,46 @@ only available county-by-county — no statewide download exists.
 accepting terms of service; an email is then sent with a 30-minute expiring download link.
 The SOS does not warrant completeness or accuracy of the images.
 
-**What the images contain:** Based on the November 2024 ballot image structure (visible
-in the CGG Sumter complaint exhibits), each ballot image packet includes:
-- Page 1: Scanned image of the ballot face (human-readable text and QR code for BMD; marked ovals for HMPB)
-- Page 3: AuditMark metadata record showing Tabulator ID, Poll ID, Ballot ID, and how each vote was counted or adjudicated
+**What the images contain — confirmed from Evans County inspection:** The Evans County ZIP
+(`MAY-19-2026--GENERAL-PRIMARY-ELECTION_EVANS.zip`, 128 MB) was inspected directly.
 
-**Key open question — batch linkage:** The ZIPs are organized county-by-county. The RLA
-manifest uses batch names like `ICC-Absentee by Mail - 2` for a specific scanner and
-container. It is not publicly documented how the ballot image files within a county ZIP map
-to these batch names, or whether the internal folder/filename structure uses the same
-identifiers. This linkage is essential for anyone wanting to independently verify the
-Enhanced Voting comparison for a specific batch or reconcile images against the RLA sample.
+- **Format:** Individual TIFF files, one per ballot. 1-bit bilevel (black/white), CCITT Huffman
+  compressed, 200 DPI, approximately 1728×2100 pixels (~100 KB each).
+- **ZIP structure:** One top-level audit-timestamp folder (e.g., `Audit2026_05_21_10_54_35/`),
+  then one subfolder per ballot style (e.g., `Pre_9-Veteran's Comm Ctr/`). Files within
+  each folder are numbered sequentially: `Pre_9-Veteran's Comm Ctr-0001.tif`, `0002.tif`, …
+- **Ballot styles, not scanner batches:** The `Pre_N` folder identifier is the Dominion
+  ballot style number — a unique combination of geographic precinct and party (Republican
+  or Democratic). All ballots of that style appear in the same folder regardless of which
+  scanner or voting mode (Election Day, Advance Voting, Absentee) processed them. Evans
+  County had 19 unique ballot styles across 1,641 total ballots.
+- **BMD ballot content:** Each image shows a printed BMD ballot with a QR code (upper left)
+  and the complete human-readable vote record in three columns — every contest and the
+  voter's choice. Choices are fully legible. Republican and Democratic voters appear in
+  separate ballot-style folders (e.g., Pre_9 = Republican; Pre_33 = Democratic).
+- **No embedded metadata:** The TIFF files contain no tabulator ID, batch name, poll ID, or
+  CVR-linkage information. The "AuditMark" metadata pages visible in the Sumter complaint
+  exhibits are an internal Dominion platform display; they do not appear in the publicly
+  exported TIFF files.
+- **Complete count verified:** Evans County's 1,641 images match the sum of all batch totals
+  in the Evans County ballot manifest exactly (447+446+340+339+25+25+17+2 = 1,641). Evans
+  County had **zero discrepancies** in the contest results comparison spreadsheet.
 
-The ballot images for Cherokee, Muscogee, and Henry counties — where systematic
-discrepancies were observed — could in principle be used to examine the specific ballots
-where OCR and tabulation diverged. This requires a researcher to request those county ZIPs,
-identify the relevant precincts or tabulators, and manually or programmatically compare
-the ballot face images against the contest-results spreadsheet. That analysis has not been
-conducted in this review.
+**Batch-linkage gap:** Images are organized by ballot style, not by scanner batch. The RLA
+manifest uses batch names like `ED-Veteran's Community Center ICP 1 - 0` (340 ballots) and
+`AV-Elections Office ICP 1 - 0` (447 ballots). Ballots from any given scanner batch are
+spread across multiple ballot-style folders. Without a CVR mapping each ballot to its scanner
+session, there is no way to identify which images correspond to a specific RLA batch. Georgia
+does not publish CVR data.
+
+Independent verification using ballot images therefore requires re-running OCR across all
+images for a county and comparing county-level totals against the certified results — which
+is exactly what Enhanced Voting does. What cannot be done from the images alone is
+verifying or disputing the tally for a specific scanner batch.
+
+The ballot images for Cherokee, Muscogee, and Henry counties — where systematic discrepancies
+were observed — could in principle be used for county-level OCR re-runs. That analysis has
+not been conducted in this review.
 
 ---
 
