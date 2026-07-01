@@ -6,9 +6,11 @@ title: Transparency Gap Analysis
 # Transparency Gap Analysis — Georgia May 19, 2026 RLA
 ## Comparison to VotingWorks/Arlo PR #2350
 
-**Version:** v0.14 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
+**Version:** v0.15 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
 
 ---
+
+> **AI-assisted analysis, partially reviewed.** This review was produced with significant AI assistance (Claude, Anthropic) and reviewed by [Neal McBurnett](https://neal.mcburnett.org/). Findings are ongoing; some claims may require further verification. Errors and corrections welcome via [GitHub Issues](https://github.com/nealmcb/rla-review-arlo/issues).
 
 ## PR #2350 Overview
 
