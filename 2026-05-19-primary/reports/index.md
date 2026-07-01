@@ -5,7 +5,7 @@ title: Reports
 
 # Georgia May 2026 RLA — Reports
 
-**Version:** v0.7 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Main page](../)
+**Version:** v0.8 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Main page](../)
 
 [← Back to main page](../)
 
@@ -18,4 +18,4 @@ title: Reports
 | [Discrepancy Analysis](discrepancy_analysis/) | Per-ballot rates by ballot type; batch size effects; Jackson pattern; TOOMBS anomaly |
 | [Manifest & Tally Analysis](manifest_and_tally_analysis/) | County statistics, voting-mode breakdown, candidate totals, diluted margins |
 | [Artifact Inventory](artifact_inventory/) | All download URLs, SHA256 checksums, HTTP header notes |
-| [Ballot Image Audit](ballot_image_audit/) | Contest-results spreadsheet analysis; reconciliation of SOS headline figures; Cherokee County pattern |
+| [Ballot Image Audit](ballot_image_audit/) | Enhanced Voting OCR methodology; reconciliation of SOS headline figures; Cherokee, Muscogee, Henry County patterns; Nov 2024 precedents including Sumter omission |

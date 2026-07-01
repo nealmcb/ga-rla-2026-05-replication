@@ -6,8 +6,8 @@ title: Georgia May 2026 RLA — Review
 # Georgia May 19, 2026 General Primary
 ## Risk-Limiting Audit — Transparency Review
 
-**Version:** v0.7 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp;
-[v0.7 tag](https://github.com/nealmcb/rla-review-arlo/releases/tag/v0.7) &nbsp;·&nbsp;
+**Version:** v0.8 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp;
+[v0.8 tag](https://github.com/nealmcb/rla-review-arlo/releases/tag/v0.8) &nbsp;·&nbsp;
 [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp;
 [Comments / Issues](https://github.com/nealmcb/rla-review-arlo/issues)
 
@@ -21,7 +21,7 @@ title: Georgia May 2026 RLA — Review
 4. [Reports](#reports)
 5. [Data Artifacts](#data-artifacts)
 6. [Scripts](#scripts)
-7. [Ballot Image Auditing and Enhanced Voting](#ballot-image-auditing-and-enhanced-voting)
+7. [Ballot Image Audit (Enhanced Voting)](#ballot-image-audit-enhanced-voting)
 8. [How to Replicate](#how-to-replicate)
 
 ---
@@ -147,19 +147,17 @@ All scripts live in [`src/`](https://github.com/nealmcb/rla-review-arlo/tree/mai
 
 ---
 
-## Ballot Image Auditing and Enhanced Voting
+## Ballot Image Audit (Enhanced Voting)
 
-A **ballot image audit** is a distinct and complementary transparency mechanism from an RLA. Georgia's Dominion ImageCast Precinct (ICP) scanners capture a digital image of each ballot as it is scanned. If those images are made public, any member of the public (or software tool) can:
+A **ballot image audit** is a distinct and complementary transparency mechanism from an RLA. Georgia's Dominion ImageCast Precinct (ICP) scanners capture a digital image of each ballot as it passes through. The Georgia SOS contracted **[Enhanced Voting](https://enhancedvoting.com)** to apply OCR to those stored images and compare the resulting vote totals against the county-certified results — for every contest, in every county.
 
-- independently verify how each BMD ballot's printed text was read by the scanner
-- compare scanner reads to hand-count reads at the individual-ballot level
-- detect systematic QR-code vs. printed-text disagreements across large numbers of ballots
+For the May 2026 primary, the SOS released aggregate contest-results comparison data alongside a press release on approximately June 28, 2026. This review has analyzed that data in detail. See the [Ballot Image Audit report](reports/ballot_image_audit/) for full findings, including:
 
-**[Enhanced Voting](https://enhancedvoting.com)** is a company that operates a public ballot-image review platform and has worked with several jurisdictions to publish ballot images for public scrutiny. Such transparency is especially valuable for BMD-heavy election environments like Georgia's in-person voting.
-
-**What this review found:** No public ballot image dataset, Enhanced Voting audit report, or equivalent artifact for Georgia's May 19, 2026 General Primary was identified. If such a dataset exists or is available through a public records request to a Georgia county, it would substantially strengthen the transparency picture — particularly for the BMD discrepancies described above.
-
-Readers aware of public Georgia 2026 ballot image availability are encouraged to [open an issue](https://github.com/nealmcb/rla-review-arlo/issues) in this repository.
+- Reconciliation of the SOS's headline figures ("1,785 contests reviewed," "159 discrepancies")
+- Cherokee County: systematic audit losses across all 9 Republican Party Questions (−13 to −20 votes each)
+- Muscogee and Henry counties: systematic OCR losses across contested judicial races
+- Comparison of a June 11 jurisdiction-detail PDF against the June 28 Excel release
+- Methodology context from the November 2024 general election audit, including the Sumter County write-in omission
 
 ---
 
