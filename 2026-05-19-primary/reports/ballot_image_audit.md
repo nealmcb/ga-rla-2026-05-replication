@@ -5,7 +5,7 @@ title: Ballot Image Audit Analysis
 
 # Ballot Image Audit Analysis — Georgia May 19, 2026 General Primary
 
-**Version:** v0.6 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
+**Version:** v0.7 &nbsp;·&nbsp; **Review timestamp:** 2026-06-29T23:18:24Z &nbsp;·&nbsp; [Repository](https://github.com/nealmcb/rla-review-arlo) &nbsp;·&nbsp; [← Reports](../)
 
 ---
 
@@ -32,40 +32,36 @@ unit. We document our reconciliation attempts below.
 ## What Is the Ballot Image Audit?
 
 Georgia law requires that every ballot be digitally imaged as it passes through an optical
-scanner. The ballot image audit takes those stored images and re-tabulates them independently,
-then compares the re-tabulation against the original scanner results.
+scanner. The ballot image audit takes those stored images and re-tabulates them using a
+separate software system, then compares the result against the official certified totals.
 
-This is a **machine-vs-machine comparison**, not a human hand count:
+The Georgia SOS contracted **Enhanced Voting** to conduct this audit using their Enhanced
+Audit software. This is a **machine-vs-machine comparison**, not a human hand count:
 
 | Step | What happens |
 |------|-------------|
-| Election day | Scanner reads each ballot (QR code for BMD; optical marks for HMPB) and saves a digital image |
-| Audit | A second software pass re-reads the stored images and produces vote totals |
-| Comparison | The two sets of totals are compared contest by contest, county by county |
+| Election day | Scanner reads QR code (BMD) or optical marks (HMPB), saves a digital image, and tabulates; county officials adjudicate any ambiguous marks via EMS software |
+| Audit | Enhanced Voting's Enhanced Audit software applies OCR to stored ballot images, reading the printed human-readable text (BMD) or optical marks (HMPB) |
+| Comparison | OCR-derived totals compared against county-certified results, contest by contest, county by county |
 
-**For BMD (in-person) ballots:** The scanner reads the QR code; the audit may re-read the
-QR code from the stored image or may read the human-readable printed text via OCR. These are
-not equivalent. QR codes use Reed-Solomon error correction: they either decode correctly to
-the original data or fail to decode at all — there is no failure mode that silently produces
-a slightly different vote count. Therefore, if the audit re-reads QR codes and finds vote
-count differences, those differences cannot be attributed to image quality; they would
-indicate a reading methodology difference, a software bug, or some other systematic cause.
-If the audit instead reads the human-readable printed text via OCR, small differences are
-expected and meaningful — they represent genuine disagreements between what the QR code
-encoded and what the printed text says. A prior SOS press release was titled "Confirms 100%
-Accuracy of QR Code," suggesting at least some prior audits compared QR-to-QR; whether this
-audit does the same has not been publicly specified.
+**For BMD (in-person) ballots:** The scanner tabulates from the QR code. The audit reads
+the **printed human-readable text** on the same ballot using OCR — not the QR code.
+QR codes use Reed-Solomon error correction and have no failure mode that produces a silently
+different vote count; they either decode correctly or fail entirely. OCR of printed text is
+a different matter: if print quality or scan resolution is poor, OCR confidence drops and the
+ballot may require manual review. Any differences between QR-code tabulation and OCR
+tabulation are meaningful: they represent genuine disagreements between what the QR code
+encoded and what was printed. Enhanced Voting's November 2024 general election audit found
+**zero such differences** across 5,025,863 BMD ballots — confirming that the QR codes and
+printed text agreed on every ballot examined.
 
-**For HMPB (absentee/hand-marked) ballots:** Both original and audit use optical mark
-recognition (OMR), but on different substrates — the original reads the physical paper
-directly; the audit reads a digital image of that paper. Here, small differences are
-genuinely plausible: image resolution, scan orientation, or lighting can shift whether a
-borderline-filled bubble crosses the acceptance threshold. The 1–2 vote discrepancies seen
-in the data are most consistent with this OMR-threshold effect on HMPB ballots.
-
-The SOS has not published the technical specification of how the audit image-read differs from
-the original scan, so the precise source of discrepancies cannot be fully characterized from
-public information.
+**For HMPB (absentee/hand-marked) ballots:** The original tabulation uses the Dominion
+scanner's optical mark recognition on the physical paper. The audit uses OCR/OMR on stored
+digital images of that paper. Small differences are plausible: image resolution, scan angle,
+or lighting variation can shift whether a borderline-filled bubble crosses the acceptance
+threshold. Human reviewer judgment is also involved when the system flags uncertain marks.
+The 1–2 vote discrepancies typical of the data are most consistent with this OMR-threshold
+and reviewer-judgment effect on HMPB ballots.
 
 ---
 
@@ -283,10 +279,10 @@ than original tabulation). The split:
 - Audit found **more** votes than original: +223 votes (across rows where Difference > 0)
 - Audit found **fewer** votes than original: −771 votes (across rows where Difference < 0)
 
-This is not symmetric noise. The audit image-re-read is systematically more conservative
-(less likely to count borderline marks) than the original scanner. Cherokee County alone
-contributes roughly −180 votes to this net (9 questions × ~20 vote difference), but the
-directional bias persists even excluding Cherokee.
+This is not symmetric noise. The Enhanced Voting OCR re-read is systematically more
+conservative — less likely to count borderline marks — than the original scanner tabulation.
+Cherokee County alone contributes roughly −180 votes to this net (9 questions × ~20 vote
+difference), but the directional bias persists even excluding Cherokee.
 
 ### 4. No Outcome Changes
 
@@ -300,15 +296,44 @@ found. Local races with the smallest margins also showed no outcome change.
 
 | Claim | Status |
 |-------|--------|
-| Scanner results and image re-reads are highly consistent | **Yes** — 99.9924% at ballot-card level (per SOS) |
-| No contest outcome changed | **Yes** — confirmed across all contests |
-| QR codes on BMD ballots encode votes correctly | **Unclear** — depends on whether audit reads QR or text; prior audit confirmed QR accuracy separately |
-| Hand-marked ballots are read correctly by scanners | **Partially** — consistency is high, but scanner vs. image-read differences (especially in HMPB) cannot be decomposed from this data |
-| Voters' intended choices are accurately captured | **Not directly addressed** — this audit compares two machine reads of the same images; it cannot detect whether the BMD encoded voter intent correctly at print time, or whether voters verified their printed ballots |
+| QR codes and printed text on BMD ballots agree | **Yes, per Nov 2024 precedent** — Enhanced Voting's OCR found zero differences from QR tabulation across 5,025,863 BMD ballots in the Nov 2024 general election |
+| OCR tabulation and certified totals are highly consistent | **Yes** — 99.9924% at ballot-card level (per SOS); consistent with Nov 2024 (87 discrepancies out of 5.3M ballots) |
+| No contest outcome changed | **Yes** — confirmed across all contests included in the audit |
+| Post-election adjudication errors can be detected | **Yes, for included contests** — if adjudication produced results inconsistent with the ballot images, OCR vs. certified-results comparison would show a discrepancy |
+| All contests were included in the comparison | **Not verifiable from public data** — in the Nov 2024 audit, one Sumter County local race was silently excluded from Enhanced Voting's comparison; the publicly released data cannot confirm complete coverage for May 2026 |
+| Write-in votes are handled correctly | **Uncertain** — the excluded Nov 2024 Sumter race was a write-in contest; Enhanced Voting may have improved write-in handling since then, and primary elections have fewer write-in scenarios than general elections |
+| Voters' intended choices are accurately captured | **Not directly addressed** — this audit compares two machine reads of the same stored images; it cannot detect whether a BMD encoded voter intent correctly at print time, or whether voters verified their printed ballots |
 
-The ballot image audit is a meaningful internal consistency check. It is **not** a hand count,
+The ballot image audit is a meaningful consistency check. It is **not** a hand count,
 and it does not verify the link between voter intent and recorded vote. It is complementary
 to — but significantly weaker than — the batch-comparison RLA conducted separately.
+
+### November 2024 Precedents
+
+The same Enhanced Voting system was used for Georgia's November 2024 general election audit
+(5,297,264 ballots, 1,955 contests, 6,647 ballot styles). That audit's published findings
+provide important context:
+
+- **Zero BMD discrepancies**: OCR and QR tabulation agreed on all 5,025,863 BMD ballots.
+- **86 HMPB discrepancies**: All attributed to voter intent interpretation differences —
+  consistent with OMR-on-image vs. OMR-on-paper threshold effects.
+- **In-process corrections**: The audit caught real errors before certification — Barrow
+  County had test ballots mixed with official results; Peach County had one test ballot in
+  the official results; Wilkinson County had absentee ballots scanned against a wrong
+  election definition. All were corrected prior to state certification.
+- **One missed local race (Sumter County)**: A write-in race for Soil and Water
+  Conservation District Supervisor was not included in Enhanced Voting's comparison. The
+  official certified result credited the write-in winner with 1,750 votes; ballot images
+  showed the candidate received fewer than 130 write-in votes, with the remainder credited
+  to him via the voting system's post-election adjudication module using a shared "emsadmin"
+  credential. Because the contest was not part of the audit, no discrepancy was reported.
+  The Coalition for Good Governance filed a complaint with the State Election Board in
+  January 2025. The SOS press release claiming the audit examined "every race in every
+  county" was inaccurate with respect to this race.
+
+For May 2026, the absence of large write-in-only races reduces exposure to the Sumter failure
+mode. Whether Enhanced Voting has since improved its write-in contest handling has not been
+publicly confirmed.
 
 ---
 
